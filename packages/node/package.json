@@ -1,0 +1,35 @@
+{
+  "name": "@longmo-utils/node",
+  "version": "1.0.0",
+  "description": "Node.js-specific utility functions with file system dependencies",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "nodejs",
+    "filesystem"
+  ],
+  "author": "",
+  "license": "MIT"
+}

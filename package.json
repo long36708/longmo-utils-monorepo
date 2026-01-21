@@ -1,0 +1,33 @@
+{
+  "name": "longmoo-utils-monorepo",
+  "version": "1.0.0",
+  "author": "longmo",
+  "private": true,
+  "description": "A high-quality TypeScript utility library with platform-specific packages",
+  "scripts": {
+    "build": "pnpm --filter @longmo-utils/common run build && pnpm --filter @longmo-utils/browser run build && pnpm --filter @longmo-utils/node run build",
+    "build:common": "pnpm --filter @longmo-utils/common run build",
+    "build:browser": "pnpm --filter @longmo-utils/browser run build",
+    "build:node": "pnpm --filter @longmo-utils/node run build",
+    "test": "vitest run",
+    "test:browser": "vitest run --config vitest.browser.config.ts",
+    "lint": "eslint . --ext .ts,.tsx",
+    "clean": "pnpm --filter './packages/*' run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0",
+    "happy-dom": "20.0.2",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@8.10.0"
+}
