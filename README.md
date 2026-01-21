@@ -1,6 +1,6 @@
 # Longmoo Utils Monorepo
 
-A high-quality TypeScript utility library with platform-specific packages.
+A high-quality TypeScript utility library with platform-specific packages, built with [tsdown](https://tsdown.dev) - a fast and modern bundler powered by Rolldown.
 
 ## 📦 Packages
 
@@ -170,19 +170,31 @@ longmoo-utils-monorepo/
 ### Package Details
 
 #### @longmo-utils/common
-- **Build Output**: ESM + CJS + TypeScript definitions
+- **Build Output**: ESM (`*.mjs`) + CJS (`*.cjs`) + TypeScript definitions (`*.d.mts`, `*.d.cts`)
 - **Dependencies**: None (pure JavaScript/TypeScript)
 - **Test Environment**: Node.js
+- **Build Tool**: tsdown
 
 #### @longmo-utils/browser
-- **Build Output**: ESM + TypeScript definitions (minified)
+- **Build Output**: ESM (`*.mjs`) + TypeScript definitions (`*.d.mts`) - minified
 - **Dependencies**: Browser APIs (DOM, BOM, Fetch, Clipboard)
 - **Test Environment**: happy-dom
+- **Build Tool**: tsdown
 
 #### @longmo-utils/node
-- **Build Output**: ESM + CJS + TypeScript definitions
+- **Build Output**: ESM (`*.mjs`) + CJS (`*.cjs`) + TypeScript definitions (`*.d.mts`, `*.d.cts`)
 - **Dependencies**: Node.js built-in modules (fs, path, process)
 - **Test Environment**: Node.js
+- **Build Tool**: tsdown
+
+## 🏗 Build System
+
+This project uses [tsdown](https://tsdown.dev), a modern bundler built on top of Rolldown, for fast and efficient builds. Migration from tsup was completed successfully with the following benefits:
+
+- **Faster build times** thanks to Rolldown's performance
+- **Better tree-shaking** and code splitting
+- **Automatic type definition generation** based on package.json configuration
+- **Modern module output** with proper `.mjs`/`.cjs` extensions
 
 ## 📄 License
 
