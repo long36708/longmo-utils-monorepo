@@ -1,0 +1,60 @@
+/**
+ * Custom styles for Longmoo Utils documentation
+ */
+
+/* Dark theme adjustments */
+.dark .VPHomeHero .text {
+  color: var(--vp-c-text-1);
+}
+
+/* Code block improvements */
+.vp-doc div[class*='language-'] {
+  margin: 1.5em 0;
+  border-radius: 8px;
+}
+
+/* Custom badge styles */
+.api-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: var(--vp-c-default-soft);
+  color: var(--vp-c-default-1);
+}
+
+.api-badge.common {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.api-badge.browser {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.api-badge.node {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+/* Feature card hover effect */
+.VPFeature {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation link active state */
+.VPLink:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.VPLink.active {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}

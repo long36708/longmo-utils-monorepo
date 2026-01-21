@@ -11,7 +11,7 @@ export function debounce<T extends (...args: any[]) => any>(
 ): (...args: Parameters<T>) => void {
   let timeoutId: ReturnType<typeof setTimeout> | null = null
 
-  return function (this: any, args: Parameters<T>) {
+  return function (this: any, ...args: Parameters<T>) {
     if (timeoutId !== null) {
       clearTimeout(timeoutId)
     }
@@ -31,7 +31,7 @@ export function throttle<T extends (...args: any[]) => any>(
   let lastCall = 0
   let timeoutId: ReturnType<typeof setTimeout> | null = null
 
-  return function (this: any, args: Parameters<T>) {
+  return function (this: any, ...args: Parameters<T>) {
     const now = Date.now()
 
     if (now - lastCall >= delay) {

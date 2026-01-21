@@ -2,6 +2,13 @@
 
 A high-quality TypeScript utility library with platform-specific packages, built with [tsdown](https://tsdown.dev) - a fast and modern bundler powered by Rolldown.
 
+## 📚 Documentation
+
+- **[📖 完整文档站点](./docs/)** - 在线文档和 API 参考
+- **[🚀 快速开始](./DOCS_QUICKSTART.md)** - 文档系统快速开始指南
+- **[⚙️ 配置方案](./DOCS_SETUP.md)** - VitePress + TypeDoc 完整配置文档
+- **[📋 文档索引](./DOCUMENTATION.md)** - 文档系统总览
+
 ## 📦 Packages
 
 | Package | Description | Environment |
@@ -91,6 +98,15 @@ pnpm test:browser      # Run browser tests
 
 # Lint code
 pnpm lint
+
+# Generate API documentation
+pnpm docs:api
+
+# Start documentation dev server
+pnpm docs:dev
+
+# Build documentation site
+pnpm docs
 ```
 
 ## 📁 Project Structure

@@ -1,0 +1,35 @@
+**@longmo-utils/node**
+
+***
+
+# @longmo-utils/node
+
+## Functions
+
+- [copy](functions/copy.md)
+- [ensureDir](functions/ensureDir.md)
+- [exists](functions/exists.md)
+- [exit](functions/exit.md)
+- [getCwd](functions/getCwd.md)
+- [getDirname](functions/getDirname.md)
+- [getEnv](functions/getEnv.md)
+- [getEnvBool](functions/getEnvBool.md)
+- [getEnvMode](functions/getEnvMode.md)
+- [getEnvNumber](functions/getEnvNumber.md)
+- [getFiles](functions/getFiles.md)
+- [getMemoryUsage](functions/getMemoryUsage.md)
+- [getNodeVersion](functions/getNodeVersion.md)
+- [getPid](functions/getPid.md)
+- [getPlatform](functions/getPlatform.md)
+- [getUptime](functions/getUptime.md)
+- [hasEnv](functions/hasEnv.md)
+- [isDevelopment](functions/isDevelopment.md)
+- [isLinux](functions/isLinux.md)
+- [isMac](functions/isMac.md)
+- [isProduction](functions/isProduction.md)
+- [isTest](functions/isTest.md)
+- [isWindows](functions/isWindows.md)
+- [readFileOrDefault](functions/readFileOrDefault.md)
+- [readJson](functions/readJson.md)
+- [remove](functions/remove.md)
+- [writeJson](functions/writeJson.md)
