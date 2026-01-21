@@ -2,4 +2,4 @@ src/
 test/
 *.test.ts
 tsconfig.json
-tsup.config.ts
+tsdown.config.ts

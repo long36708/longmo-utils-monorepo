@@ -51,7 +51,7 @@ export async function remove(filePath: string): Promise<void> {
     } else {
       await fs.unlink(filePath)
     }
-  } catch (error) {
+  } catch {
     // File doesn't exist, ignore
   }
 }

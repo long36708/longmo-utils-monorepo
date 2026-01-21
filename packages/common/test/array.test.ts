@@ -50,7 +50,7 @@ describe('Array Utils', () => {
 
     it('should not mutate original array', () => {
       const arr = [1, 2, 3]
-      const result = shuffle(arr)
+      shuffle(arr)
       expect(arr).toEqual([1, 2, 3])
     })
   })
