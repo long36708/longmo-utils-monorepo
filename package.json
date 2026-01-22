@@ -18,9 +18,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:api": "pnpm docs:api:common && pnpm docs:api:browser && pnpm docs:api:node",
-    "docs:api:common": "typedoc --options typedoc.common.json",
-    "docs:api:browser": "typedoc --options typedoc.browser.json",
-    "docs:api:node": "typedoc --options typedoc.node.json",
+    "docs:api:common": "typedoc --config typedoc.common.js",
+    "docs:api:browser": "typedoc --config typedoc.browser.js",
+    "docs:api:node": "typedoc --config typedoc.node.js",
     "docs": "pnpm docs:api && pnpm docs:build"
   },
   "devDependencies": {

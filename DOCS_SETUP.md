@@ -32,9 +32,9 @@ longmoo-utils-monorepo/
 │       └── node/                # Node 包 API
 │           ├── index.md
 │           └── modules/
-├── typedoc.common.json          # TypeDoc 配置 - Common 包
-├── typedoc.browser.json         # TypeDoc 配置 - Browser 包
-└── typedoc.node.json            # TypeDoc 配置 - Node 包
+├── typedoc.common.js            # TypeDoc 配置 - Common 包
+├── typedoc.browser.js           # TypeDoc 配置 - Browser 包
+└── typedoc.node.js              # TypeDoc 配置 - Node 包
 ```
 
 ## 安装依赖
@@ -49,7 +49,7 @@ pnpm add -D vitepress typedoc typedoc-plugin-markdown
 
 每个包都有独立的 TypeDoc 配置文件：
 
-#### `typedoc.common.json`
+#### `typedoc.common.js`
 ```json
 {
   "$schema": "https://typedoc.org/schema.json",
@@ -163,9 +163,9 @@ pnpm docs:build
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:api": "pnpm docs:api:common && pnpm docs:api:browser && pnpm docs:api:node",
-    "docs:api:common": "typedoc --options typedoc.common.json",
-    "docs:api:browser": "typedoc --options typedoc.browser.json",
-    "docs:api:node": "typedoc --options typedoc.node.json",
+    "docs:api:common": "typedoc --config typedoc.common.js",
+    "docs:api:browser": "typedoc --config typedoc.browser.js",
+    "docs:api:node": "typedoc --config typedoc.node.js",
     "docs": "pnpm docs:api && pnpm docs:build"
   }
 }

@@ -55,9 +55,9 @@
 
 | 文件 | 说明 |
 |------|------|
-| `typedoc.common.json` | Common 包的 TypeDoc 配置 |
-| `typedoc.browser.json` | Browser 包的 TypeDoc 配置 |
-| `typedoc.node.json` | Node 包的 TypeDoc 配置 |
+| `typedoc.common.js` | Common 包的 TypeDoc 配置 |
+| `typedoc.browser.js` | Browser 包的 TypeDoc 配置 |
+| `typedoc.node.js` | Node 包的 TypeDoc 配置 |
 
 ### 6. 自动部署
 
@@ -272,9 +272,9 @@ longmoo-utils-monorepo/
 │   ├── index.md                     # 首页
 │   ├── README.md                    # 库概述
 │   └── .gitignore
-├── typedoc.common.json              # TypeDoc 配置 - Common
-├── typedoc.browser.json             # TypeDoc 配置 - Browser
-├── typedoc.node.json                # TypeDoc 配置 - Node
+├── typedoc.common.js                # TypeDoc 配置 - Common
+├── typedoc.browser.js               # TypeDoc 配置 - Browser
+├── typedoc.node.js                  # TypeDoc 配置 - Node
 ├── .github/
 │   └── workflows/
 │       └── docs.yml                 # GitHub Actions 自动部署

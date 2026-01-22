@@ -64,9 +64,9 @@ longmoo-utils-monorepo/
 │   ├── guide/                   # 使用指南
 │   ├── index.md                 # 首页
 │   └── README.md
-├── typedoc.common.json          # TypeDoc 配置 - Common
-├── typedoc.browser.json         # TypeDoc 配置 - Browser
-├── typedoc.node.json            # TypeDoc 配置 - Node
+├── typedoc.common.js            # TypeDoc 配置 - Common
+├── typedoc.browser.js           # TypeDoc 配置 - Browser
+├── typedoc.node.js              # TypeDoc 配置 - Node
 ├── .github/workflows/           # GitHub Actions 工作流
 │   └── docs.yml                 # 自动部署配置
 ├── DOCUMENTATION.md             # 文档系统总览

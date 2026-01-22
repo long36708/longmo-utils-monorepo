@@ -41,9 +41,9 @@ pnpm docs:dev
 
 | 文件 | 用途 |
 |------|------|
-| `typedoc.common.json` | TypeDoc 配置 - Common |
-| `typedoc.browser.json` | TypeDoc 配置 - Browser |
-| `typedoc.node.json` | TypeDoc 配置 - Node |
+| `typedoc.common.js` | TypeDoc 配置 - Common |
+| `typedoc.browser.js` | TypeDoc 配置 - Browser |
+| `typedoc.node.js` | TypeDoc 配置 - Node |
 | `docs/.vitepress/config.ts` | VitePress 配置 |
 | `docs/.vitepress/theme/style.css` | 自定义样式 |
 

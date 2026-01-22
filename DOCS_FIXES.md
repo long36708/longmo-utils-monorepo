@@ -17,9 +17,9 @@ TypeDoc 不使用 `--config` 参数，而是使用 `--options` 参数来指定�
 
 **修正后**：
 ```json
-"docs:api:common": "typedoc --options typedoc.common.json",
-"docs:api:browser": "typedoc --options typedoc.browser.json",
-"docs:api:node": "typedoc --options typedoc.node.json"
+"docs:api:common": "typedoc --config typedoc.common.js",
+"docs:api:browser": "typedoc --config typedoc.browser.js",
+"docs:api:node": "typedoc --config typedoc.node.js"
 ```
 
 ## 正确的命令
@@ -28,13 +28,13 @@ TypeDoc 不使用 `--config` 参数，而是使用 `--options` 参数来指定�
 
 ```bash
 # Common 包
-typedoc --options typedoc.common.json
+typedoc --config typedoc.common.js
 
 # Browser 包
-typedoc --options typedoc.browser.json
+typedoc --config typedoc.browser.js
 
 # Node 包
-typedoc --options typedoc.node.json
+typedoc --config typedoc.node.js
 ```
 
 ### 生成所有 API 文档
@@ -47,7 +47,7 @@ pnpm docs:api
 
 ```bash
 # 查看详细日志用于调试
-typedoc --options typedoc.common.json --logLevel Verbose
+typedoc --config typedoc.common.js --logLevel Verbose
 ```
 
 ## TypeDoc 常用参数

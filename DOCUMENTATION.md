@@ -41,7 +41,7 @@ API 文档由 TypeDoc 自动生成，位于 `docs/api/` 目录：
 
 1. **查看完整配置方案**: [DOCS_SETUP.md](./DOCS_SETUP.md)
 2. **VitePress 配置**: [docs/.vitepress/config.ts](./docs/.vitepress/config.ts)
-3. **TypeDoc 配置**: [typedoc.common.json](./typedoc.common.json)
+3. **TypeDoc 配置**: [typedoc.common.js](./typedoc.common.js)
 
 ### 自动部署
 

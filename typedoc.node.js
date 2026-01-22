@@ -1,0 +1,14 @@
+export default {
+  $schema: "https://typedoc.org/schema.json",
+  tsconfig: "packages/node/tsconfig.json",
+  entryPoints: ["packages/node/src/index.ts"],
+  out: "docs/api/node",
+  excludePrivate: true,
+  excludeProtected: true,
+  excludeInternal: true,
+  readme: "none",
+  disableSources: true,
+  plugin: ["typedoc-plugin-markdown"],
+  theme: "markdown",
+  commentStyle: "jsdoc"
+};
