@@ -2,15 +2,17 @@
 
 # Function: removeSessionStorage()
 
-> **removeSessionStorage**(`key`): `boolean`
+```ts
+function removeSessionStorage(key): boolean;
+```
 
 Removes an item from sessionStorage
 
 ## Parameters
 
-### key
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
 
 ## Returns
 

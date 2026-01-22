@@ -2,7 +2,9 @@
 
 # Function: isOnline()
 
-> **isOnline**(): `boolean`
+```ts
+function isOnline(): boolean;
+```
 
 Checks if the browser is online
 

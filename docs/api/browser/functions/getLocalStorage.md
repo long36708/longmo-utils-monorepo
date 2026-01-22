@@ -2,21 +2,23 @@
 
 # Function: getLocalStorage()
 
-> **getLocalStorage**\<`T`\>(`key`): `T` \| `null`
+```ts
+function getLocalStorage<T>(key): T | null;
+```
 
 Gets an item from localStorage
 
 ## Type Parameters
 
-### T
-
-`T` = `any`
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | `any` |
 
 ## Parameters
 
-### key
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
 
 ## Returns
 

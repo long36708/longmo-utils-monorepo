@@ -12,52 +12,40 @@
         "link": "/api/browser/functions/$$.md"
       },
       {
-        "text": "addClass",
-        "link": "/api/browser/functions/addClass.md"
-      },
-      {
-        "text": "clearLocalStorage",
-        "link": "/api/browser/functions/clearLocalStorage.md"
-      },
-      {
-        "text": "copyToClipboard",
-        "link": "/api/browser/functions/copyToClipboard.md"
-      },
-      {
         "text": "createElement",
         "link": "/api/browser/functions/createElement.md"
       },
       {
-        "text": "del",
-        "link": "/api/browser/functions/del.md"
+        "text": "addClass",
+        "link": "/api/browser/functions/addClass.md"
       },
       {
-        "text": "get",
-        "link": "/api/browser/functions/get.md"
+        "text": "removeClass",
+        "link": "/api/browser/functions/removeClass.md"
       },
       {
-        "text": "getLocalStorage",
-        "link": "/api/browser/functions/getLocalStorage.md"
-      },
-      {
-        "text": "getSessionStorage",
-        "link": "/api/browser/functions/getSessionStorage.md"
+        "text": "toggleClass",
+        "link": "/api/browser/functions/toggleClass.md"
       },
       {
         "text": "getStyle",
         "link": "/api/browser/functions/getStyle.md"
       },
       {
-        "text": "getUserLanguage",
-        "link": "/api/browser/functions/getUserLanguage.md"
+        "text": "setStyle",
+        "link": "/api/browser/functions/setStyle.md"
       },
       {
         "text": "isInViewport",
         "link": "/api/browser/functions/isInViewport.md"
       },
       {
-        "text": "isOnline",
-        "link": "/api/browser/functions/isOnline.md"
+        "text": "scrollIntoView",
+        "link": "/api/browser/functions/scrollIntoView.md"
+      },
+      {
+        "text": "get",
+        "link": "/api/browser/functions/get.md"
       },
       {
         "text": "post",
@@ -68,40 +56,52 @@
         "link": "/api/browser/functions/put.md"
       },
       {
+        "text": "del",
+        "link": "/api/browser/functions/del.md"
+      },
+      {
+        "text": "isOnline",
+        "link": "/api/browser/functions/isOnline.md"
+      },
+      {
+        "text": "getUserLanguage",
+        "link": "/api/browser/functions/getUserLanguage.md"
+      },
+      {
+        "text": "copyToClipboard",
+        "link": "/api/browser/functions/copyToClipboard.md"
+      },
+      {
         "text": "readFromClipboard",
         "link": "/api/browser/functions/readFromClipboard.md"
       },
       {
-        "text": "removeClass",
-        "link": "/api/browser/functions/removeClass.md"
-      },
-      {
-        "text": "removeLocalStorage",
-        "link": "/api/browser/functions/removeLocalStorage.md"
-      },
-      {
-        "text": "removeSessionStorage",
-        "link": "/api/browser/functions/removeSessionStorage.md"
-      },
-      {
-        "text": "scrollIntoView",
-        "link": "/api/browser/functions/scrollIntoView.md"
+        "text": "getLocalStorage",
+        "link": "/api/browser/functions/getLocalStorage.md"
       },
       {
         "text": "setLocalStorage",
         "link": "/api/browser/functions/setLocalStorage.md"
       },
       {
+        "text": "removeLocalStorage",
+        "link": "/api/browser/functions/removeLocalStorage.md"
+      },
+      {
+        "text": "clearLocalStorage",
+        "link": "/api/browser/functions/clearLocalStorage.md"
+      },
+      {
+        "text": "getSessionStorage",
+        "link": "/api/browser/functions/getSessionStorage.md"
+      },
+      {
         "text": "setSessionStorage",
         "link": "/api/browser/functions/setSessionStorage.md"
       },
       {
-        "text": "setStyle",
-        "link": "/api/browser/functions/setStyle.md"
-      },
-      {
-        "text": "toggleClass",
-        "link": "/api/browser/functions/toggleClass.md"
+        "text": "removeSessionStorage",
+        "link": "/api/browser/functions/removeSessionStorage.md"
       }
     ]
   }

@@ -2,15 +2,17 @@
 
 # Function: isInViewport()
 
-> **isInViewport**(`element`): `boolean`
+```ts
+function isInViewport(element): boolean;
+```
 
 Checks if an element is visible in the viewport
 
 ## Parameters
 
-### element
-
-`HTMLElement`
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
 
 ## Returns
 

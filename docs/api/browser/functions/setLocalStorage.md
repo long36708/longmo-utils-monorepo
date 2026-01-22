@@ -2,25 +2,24 @@
 
 # Function: setLocalStorage()
 
-> **setLocalStorage**\<`T`\>(`key`, `value`): `boolean`
+```ts
+function setLocalStorage<T>(key, value): boolean;
+```
 
 Sets an item in localStorage
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### key
-
-`string`
-
-### value
-
-`T`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
+| `value` | `T` |
 
 ## Returns
 

@@ -2,15 +2,17 @@
 
 # Function: removeLocalStorage()
 
-> **removeLocalStorage**(`key`): `boolean`
+```ts
+function removeLocalStorage(key): boolean;
+```
 
 Removes an item from localStorage
 
 ## Parameters
 
-### key
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
 
 ## Returns
 

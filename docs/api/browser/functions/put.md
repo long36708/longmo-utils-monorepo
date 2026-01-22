@@ -2,29 +2,28 @@
 
 # Function: put()
 
-> **put**\<`T`\>(`url`, `data?`, `options?`): `Promise`\<`T`\>
+```ts
+function put<T>(
+   url, 
+   data?, 
+options?): Promise<T>;
+```
 
 Performs an HTTP PUT request
 
 ## Type Parameters
 
-### T
-
-`T` = `any`
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | `any` |
 
 ## Parameters
 
-### url
-
-`string`
-
-### data?
-
-`any`
-
-### options?
-
-`RequestInit`
+| Parameter | Type |
+| ------ | ------ |
+| `url` | `string` |
+| `data?` | `any` |
+| `options?` | `RequestInit` |
 
 ## Returns
 

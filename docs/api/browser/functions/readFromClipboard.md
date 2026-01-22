@@ -2,7 +2,9 @@
 
 # Function: readFromClipboard()
 
-> **readFromClipboard**(): `Promise`\<`string`\>
+```ts
+function readFromClipboard(): Promise<string>;
+```
 
 Reads text from clipboard
 

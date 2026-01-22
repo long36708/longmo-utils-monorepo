@@ -2,7 +2,9 @@
 
 # Function: getUserLanguage()
 
-> **getUserLanguage**(): `string`
+```ts
+function getUserLanguage(): string;
+```
 
 Gets the current user's language
 

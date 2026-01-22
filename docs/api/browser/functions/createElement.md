@@ -2,29 +2,28 @@
 
 # Function: createElement()
 
-> **createElement**\<`K`\>(`tag`, `attributes?`, `children?`): `HTMLElementTagNameMap`\[`K`\]
+```ts
+function createElement<K>(
+   tag, 
+   attributes?, 
+   children?): HTMLElementTagNameMap[K];
+```
 
 Creates a DOM element
 
 ## Type Parameters
 
-### K
-
-`K` *extends* keyof `HTMLElementTagNameMap`
+| Type Parameter |
+| ------ |
+| `K` *extends* keyof `HTMLElementTagNameMap` |
 
 ## Parameters
 
-### tag
-
-`K`
-
-### attributes?
-
-`Record`\<`string`, `string`\>
-
-### children?
-
-(`string` \| `Node`)[]
+| Parameter | Type |
+| ------ | ------ |
+| `tag` | `K` |
+| `attributes?` | `Record`\<`string`, `string`\> |
+| `children?` | (`string` \| `Node`)[] |
 
 ## Returns
 

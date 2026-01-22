@@ -2,7 +2,9 @@
 
 # Function: clearLocalStorage()
 
-> **clearLocalStorage**(): `boolean`
+```ts
+function clearLocalStorage(): boolean;
+```
 
 Clears all items from localStorage
 

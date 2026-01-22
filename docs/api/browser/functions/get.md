@@ -2,25 +2,24 @@
 
 # Function: get()
 
-> **get**\<`T`\>(`url`, `options?`): `Promise`\<`T`\>
+```ts
+function get<T>(url, options?): Promise<T>;
+```
 
 Performs an HTTP GET request
 
 ## Type Parameters
 
-### T
-
-`T` = `any`
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | `any` |
 
 ## Parameters
 
-### url
-
-`string`
-
-### options?
-
-`RequestInit`
+| Parameter | Type |
+| ------ | ------ |
+| `url` | `string` |
+| `options?` | `RequestInit` |
 
 ## Returns
 

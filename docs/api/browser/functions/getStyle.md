@@ -2,19 +2,18 @@
 
 # Function: getStyle()
 
-> **getStyle**(`element`, `property`): `string`
+```ts
+function getStyle(element, property): string;
+```
 
 Gets an element's computed style
 
 ## Parameters
 
-### element
-
-`HTMLElement`
-
-### property
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
+| `property` | `string` |
 
 ## Returns
 

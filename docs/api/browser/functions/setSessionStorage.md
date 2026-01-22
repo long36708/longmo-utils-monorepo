@@ -2,25 +2,24 @@
 
 # Function: setSessionStorage()
 
-> **setSessionStorage**\<`T`\>(`key`, `value`): `boolean`
+```ts
+function setSessionStorage<T>(key, value): boolean;
+```
 
 Sets an item in sessionStorage
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### key
-
-`string`
-
-### value
-
-`T`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
+| `value` | `T` |
 
 ## Returns
 

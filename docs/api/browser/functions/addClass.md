@@ -2,19 +2,18 @@
 
 # Function: addClass()
 
-> **addClass**(`element`, ...`classNames`): `void`
+```ts
+function addClass(element, ...classNames): void;
+```
 
 Adds a class to an element
 
 ## Parameters
 
-### element
-
-`HTMLElement`
-
-### classNames
-
-...`string`[]
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
+| ...`classNames` | `string`[] |
 
 ## Returns
 

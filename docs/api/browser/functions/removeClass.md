@@ -2,19 +2,18 @@
 
 # Function: removeClass()
 
-> **removeClass**(`element`, ...`classNames`): `void`
+```ts
+function removeClass(element, ...classNames): void;
+```
 
 Removes a class from an element
 
 ## Parameters
 
-### element
-
-`HTMLElement`
-
-### classNames
-
-...`string`[]
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
+| ...`classNames` | `string`[] |
 
 ## Returns
 

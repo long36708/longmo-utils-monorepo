@@ -2,19 +2,18 @@
 
 # Function: setStyle()
 
-> **setStyle**(`element`, `styles`): `void`
+```ts
+function setStyle(element, styles): void;
+```
 
 Sets an element's style
 
 ## Parameters
 
-### element
-
-`HTMLElement`
-
-### styles
-
-`Record`\<`string`, `string`\>
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
+| `styles` | `Record`\<`string`, `string`\> |
 
 ## Returns
 

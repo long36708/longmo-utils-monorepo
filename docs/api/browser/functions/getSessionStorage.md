@@ -2,21 +2,23 @@
 
 # Function: getSessionStorage()
 
-> **getSessionStorage**\<`T`\>(`key`): `T` \| `null`
+```ts
+function getSessionStorage<T>(key): T | null;
+```
 
 Gets an item from sessionStorage
 
 ## Type Parameters
 
-### T
-
-`T` = `any`
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | `any` |
 
 ## Parameters
 
-### key
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
 
 ## Returns
 

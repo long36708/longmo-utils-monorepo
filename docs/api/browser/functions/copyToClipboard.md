@@ -2,15 +2,17 @@
 
 # Function: copyToClipboard()
 
-> **copyToClipboard**(`text`): `Promise`\<`boolean`\>
+```ts
+function copyToClipboard(text): Promise<boolean>;
+```
 
 Copies text to clipboard
 
 ## Parameters
 
-### text
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `text` | `string` |
 
 ## Returns
 

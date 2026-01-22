@@ -2,19 +2,18 @@
 
 # Function: toggleClass()
 
-> **toggleClass**(`element`, `className`): `boolean`
+```ts
+function toggleClass(element, className): boolean;
+```
 
 Toggles a class on an element
 
 ## Parameters
 
-### element
-
-`HTMLElement`
-
-### className
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `element` | `HTMLElement` |
+| `className` | `string` |
 
 ## Returns
 
