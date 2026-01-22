@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getFiles
+[@longmo-utils/node](../index.md) / getFiles
 
 # Function: getFiles()
 

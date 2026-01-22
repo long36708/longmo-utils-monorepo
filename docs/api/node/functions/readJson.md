@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / readJson
+[@longmo-utils/node](../index.md) / readJson
 
 # Function: readJson()
 

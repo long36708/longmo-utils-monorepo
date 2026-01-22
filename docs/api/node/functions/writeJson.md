@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / writeJson
+[@longmo-utils/node](../index.md) / writeJson
 
 # Function: writeJson()
 

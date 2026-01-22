@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / post
+[@longmo-utils/browser](../index.md) / post
 
 # Function: post()
 

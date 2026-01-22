@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / truncate
+[@longmo-utils/common](../index.md) / truncate
 
 # Function: truncate()
 

@@ -1,7 +1,3 @@
-**@longmo-utils/browser**
-
-***
-
 # @longmo-utils/browser
 
 ## Functions

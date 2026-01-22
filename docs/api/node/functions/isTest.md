@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / isTest
+[@longmo-utils/node](../index.md) / isTest
 
 # Function: isTest()
 

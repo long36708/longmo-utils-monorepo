@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / removeLocalStorage
+[@longmo-utils/browser](../index.md) / removeLocalStorage
 
 # Function: removeLocalStorage()
 

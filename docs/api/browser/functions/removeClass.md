@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / removeClass
+[@longmo-utils/browser](../index.md) / removeClass
 
 # Function: removeClass()
 

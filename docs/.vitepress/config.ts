@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+import commonSidebar from '../api/common/typedoc-sidebar.json'
+import browserSidebar from '../api/browser/typedoc-sidebar.json'
+import nodeSidebar from '../api/node/typedoc-sidebar.json'
 
 export default defineConfig({
   title: 'Longmoo Utils',
@@ -10,13 +13,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide/' },
-      { text: 'API', link: '/api/common/README.md' },
+      { text: 'API', link: '/api/common/index.md' },
       {
         text: 'Packages',
         items: [
-          { text: '@longmo-utils/common', link: '/api/common/README.md' },
-          { text: '@longmo-utils/browser', link: '/api/browser/README.md' },
-          { text: '@longmo-utils/node', link: '/api/node/README.md' }
+          { text: '@longmo-utils/common', link: '/api/common/index.md' },
+          { text: '@longmo-utils/browser', link: '/api/browser/index.md' },
+          { text: '@longmo-utils/node', link: '/api/node/index.md' }
         ]
       }
     ],
@@ -34,25 +37,28 @@ export default defineConfig({
         {
           text: 'Common API',
           items: [
-            { text: 'Overview', link: '/api/common/README.md' }
+            { text: 'Overview', link: '/api/common/index.md' }
           ]
-        }
+        },
+        ...commonSidebar
       ],
       '/api/browser/': [
         {
           text: 'Browser API',
           items: [
-            { text: 'Overview', link: '/api/browser/README.md' }
+            { text: 'Overview', link: '/api/browser/index.md' }
           ]
-        }
+        },
+        ...browserSidebar
       ],
       '/api/node/': [
         {
           text: 'Node API',
           items: [
-            { text: 'Overview', link: '/api/node/README.md' }
+            { text: 'Overview', link: '/api/node/index.md' }
           ]
-        }
+        },
+        ...nodeSidebar
       ]
     },
 

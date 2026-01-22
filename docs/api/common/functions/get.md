@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / get
+[@longmo-utils/common](../index.md) / get
 
 # Function: get()
 

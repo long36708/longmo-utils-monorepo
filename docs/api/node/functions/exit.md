@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / exit
+[@longmo-utils/node](../index.md) / exit
 
 # Function: exit()
 

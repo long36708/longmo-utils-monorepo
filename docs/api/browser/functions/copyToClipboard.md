@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / copyToClipboard
+[@longmo-utils/browser](../index.md) / copyToClipboard
 
 # Function: copyToClipboard()
 

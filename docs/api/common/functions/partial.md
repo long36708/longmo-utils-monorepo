@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / partial
+[@longmo-utils/common](../index.md) / partial
 
 # Function: partial()
 

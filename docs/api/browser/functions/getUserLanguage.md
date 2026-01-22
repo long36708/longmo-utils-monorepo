@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / getUserLanguage
+[@longmo-utils/browser](../index.md) / getUserLanguage
 
 # Function: getUserLanguage()
 

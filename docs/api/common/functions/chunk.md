@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / chunk
+[@longmo-utils/common](../index.md) / chunk
 
 # Function: chunk()
 

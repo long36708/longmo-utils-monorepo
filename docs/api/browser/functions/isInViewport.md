@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / isInViewport
+[@longmo-utils/browser](../index.md) / isInViewport
 
 # Function: isInViewport()
 

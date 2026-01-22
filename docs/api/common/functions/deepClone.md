@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / deepClone
+[@longmo-utils/common](../index.md) / deepClone
 
 # Function: deepClone()
 

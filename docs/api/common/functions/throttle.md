@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / throttle
+[@longmo-utils/common](../index.md) / throttle
 
 # Function: throttle()
 

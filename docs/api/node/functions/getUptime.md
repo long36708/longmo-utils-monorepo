@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getUptime
+[@longmo-utils/node](../index.md) / getUptime
 
 # Function: getUptime()
 

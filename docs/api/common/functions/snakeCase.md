@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / snakeCase
+[@longmo-utils/common](../index.md) / snakeCase
 
 # Function: snakeCase()
 

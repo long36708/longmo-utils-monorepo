@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / del
+[@longmo-utils/browser](../index.md) / del
 
 # Function: del()
 

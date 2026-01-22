@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / toggleClass
+[@longmo-utils/browser](../index.md) / toggleClass
 
 # Function: toggleClass()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / deepMerge
+[@longmo-utils/common](../index.md) / deepMerge
 
 # Function: deepMerge()
 

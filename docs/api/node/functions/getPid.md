@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getPid
+[@longmo-utils/node](../index.md) / getPid
 
 # Function: getPid()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getEnvMode
+[@longmo-utils/node](../index.md) / getEnvMode
 
 # Function: getEnvMode()
 

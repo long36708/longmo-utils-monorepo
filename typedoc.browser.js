@@ -9,7 +9,12 @@ export default {
     excludeInternal: true,
     readme: "none",
     disableSources: true,
-    plugin: ["typedoc-plugin-markdown"],
+    plugin: ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
     theme: "markdown",
-    commentStyle: "jsdoc"
+    commentStyle: "jsdoc",
+    "docsRoot": "./docs",
+    sidebar: {
+        pretty: true,
+        collapsed: false
+    }
 };

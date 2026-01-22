@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / hasEnv
+[@longmo-utils/node](../index.md) / hasEnv
 
 # Function: hasEnv()
 

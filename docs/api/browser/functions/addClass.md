@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / addClass
+[@longmo-utils/browser](../index.md) / addClass
 
 # Function: addClass()
 

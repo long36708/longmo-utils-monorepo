@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / getStyle
+[@longmo-utils/browser](../index.md) / getStyle
 
 # Function: getStyle()
 

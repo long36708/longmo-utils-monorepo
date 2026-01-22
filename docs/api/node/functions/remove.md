@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / remove
+[@longmo-utils/node](../index.md) / remove
 
 # Function: remove()
 

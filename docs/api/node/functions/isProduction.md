@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / isProduction
+[@longmo-utils/node](../index.md) / isProduction
 
 # Function: isProduction()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / setStyle
+[@longmo-utils/browser](../index.md) / setStyle
 
 # Function: setStyle()
 

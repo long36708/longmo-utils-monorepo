@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / copy
+[@longmo-utils/node](../index.md) / copy
 
 # Function: copy()
 

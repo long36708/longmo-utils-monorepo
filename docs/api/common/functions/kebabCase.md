@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / kebabCase
+[@longmo-utils/common](../index.md) / kebabCase
 
 # Function: kebabCase()
 

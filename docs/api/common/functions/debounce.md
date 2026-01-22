@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / debounce
+[@longmo-utils/common](../index.md) / debounce
 
 # Function: debounce()
 

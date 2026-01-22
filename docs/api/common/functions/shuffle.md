@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / shuffle
+[@longmo-utils/common](../index.md) / shuffle
 
 # Function: shuffle()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getNodeVersion
+[@longmo-utils/node](../index.md) / getNodeVersion
 
 # Function: getNodeVersion()
 

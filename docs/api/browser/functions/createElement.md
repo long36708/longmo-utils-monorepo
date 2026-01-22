@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / createElement
+[@longmo-utils/browser](../index.md) / createElement
 
 # Function: createElement()
 

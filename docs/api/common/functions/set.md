@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / set
+[@longmo-utils/common](../index.md) / set
 
 # Function: set()
 

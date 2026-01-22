@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getCwd
+[@longmo-utils/node](../index.md) / getCwd
 
 # Function: getCwd()
 

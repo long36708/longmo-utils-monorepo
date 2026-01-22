@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / setLocalStorage
+[@longmo-utils/browser](../index.md) / setLocalStorage
 
 # Function: setLocalStorage()
 

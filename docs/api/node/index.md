@@ -1,7 +1,3 @@
-**@longmo-utils/node**
-
-***
-
 # @longmo-utils/node
 
 ## Functions

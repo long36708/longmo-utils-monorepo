@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / put
+[@longmo-utils/browser](../index.md) / put
 
 # Function: put()
 

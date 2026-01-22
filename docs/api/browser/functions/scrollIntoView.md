@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / scrollIntoView
+[@longmo-utils/browser](../index.md) / scrollIntoView
 
 # Function: scrollIntoView()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / memoize
+[@longmo-utils/common](../index.md) / memoize
 
 # Function: memoize()
 

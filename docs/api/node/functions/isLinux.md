@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / isLinux
+[@longmo-utils/node](../index.md) / isLinux
 
 # Function: isLinux()
 

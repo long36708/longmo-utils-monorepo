@@ -1,7 +1,3 @@
-**@longmo-utils/common**
-
-***
-
 # @longmo-utils/common
 
 ## Functions

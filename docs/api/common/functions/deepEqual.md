@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / deepEqual
+[@longmo-utils/common](../index.md) / deepEqual
 
 # Function: deepEqual()
 

@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / isEmpty
+[@longmo-utils/common](../index.md) / isEmpty
 
 # Function: isEmpty()
 

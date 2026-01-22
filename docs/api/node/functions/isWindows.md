@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / isWindows
+[@longmo-utils/node](../index.md) / isWindows
 
 # Function: isWindows()
 

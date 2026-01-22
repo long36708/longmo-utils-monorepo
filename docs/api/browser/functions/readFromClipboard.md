@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / readFromClipboard
+[@longmo-utils/browser](../index.md) / readFromClipboard
 
 # Function: readFromClipboard()
 

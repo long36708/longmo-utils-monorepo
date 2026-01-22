@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / unique
+[@longmo-utils/common](../index.md) / unique
 
 # Function: unique()
 

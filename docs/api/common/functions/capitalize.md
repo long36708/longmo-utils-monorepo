@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / capitalize
+[@longmo-utils/common](../index.md) / capitalize
 
 # Function: capitalize()
 

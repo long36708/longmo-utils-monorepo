@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / readFileOrDefault
+[@longmo-utils/node](../index.md) / readFileOrDefault
 
 # Function: readFileOrDefault()
 

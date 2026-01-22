@@ -8,7 +8,12 @@ export default {
   excludeInternal: true,
   readme: "none",
   disableSources: true,
-  plugin: ["typedoc-plugin-markdown"],
+  plugin: ["typedoc-plugin-markdown","typedoc-vitepress-theme"],
   theme: "markdown",
+  "docsRoot": "./docs",
+  sidebar:{
+    pretty: true,
+    collapsed: false
+  },
   commentStyle: "jsdoc"
 };

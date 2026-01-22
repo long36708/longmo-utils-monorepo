@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / exists
+[@longmo-utils/node](../index.md) / exists
 
 # Function: exists()
 

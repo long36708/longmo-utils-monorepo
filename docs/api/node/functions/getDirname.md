@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getDirname
+[@longmo-utils/node](../index.md) / getDirname
 
 # Function: getDirname()
 

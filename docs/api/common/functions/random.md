@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / random
+[@longmo-utils/common](../index.md) / random
 
 # Function: random()
 

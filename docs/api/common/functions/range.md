@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / range
+[@longmo-utils/common](../index.md) / range
 
 # Function: range()
 

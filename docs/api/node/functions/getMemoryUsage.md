@@ -1,8 +1,4 @@
-[**@longmo-utils/node**](../README.md)
-
-***
-
-[@longmo-utils/node](../README.md) / getMemoryUsage
+[@longmo-utils/node](../index.md) / getMemoryUsage
 
 # Function: getMemoryUsage()
 

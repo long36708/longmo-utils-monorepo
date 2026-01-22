@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / removeSessionStorage
+[@longmo-utils/browser](../index.md) / removeSessionStorage
 
 # Function: removeSessionStorage()
 

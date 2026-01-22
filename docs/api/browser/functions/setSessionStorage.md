@@ -1,8 +1,4 @@
-[**@longmo-utils/browser**](../README.md)
-
-***
-
-[@longmo-utils/browser](../README.md) / setSessionStorage
+[@longmo-utils/browser](../index.md) / setSessionStorage
 
 # Function: setSessionStorage()
 

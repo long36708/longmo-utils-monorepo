@@ -1,8 +1,4 @@
-[**@longmo-utils/common**](../README.md)
-
-***
-
-[@longmo-utils/common](../README.md) / groupBy
+[@longmo-utils/common](../index.md) / groupBy
 
 # Function: groupBy()
 
