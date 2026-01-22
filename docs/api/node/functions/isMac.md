@@ -2,7 +2,9 @@
 
 # Function: isMac()
 
-> **isMac**(): `boolean`
+```ts
+function isMac(): boolean;
+```
 
 Checks if the platform is macOS
 

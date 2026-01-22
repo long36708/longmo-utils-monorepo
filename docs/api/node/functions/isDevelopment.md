@@ -2,7 +2,9 @@
 
 # Function: isDevelopment()
 
-> **isDevelopment**(): `boolean`
+```ts
+function isDevelopment(): boolean;
+```
 
 Checks if the current environment is development
 

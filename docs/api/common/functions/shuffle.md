@@ -2,21 +2,23 @@
 
 # Function: shuffle()
 
-> **shuffle**\<`T`\>(`arr`): `T`[]
+```ts
+function shuffle<T>(arr): T[];
+```
 
 Shuffles an array randomly
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### arr
-
-`T`[]
+| Parameter | Type |
+| ------ | ------ |
+| `arr` | `T`[] |
 
 ## Returns
 

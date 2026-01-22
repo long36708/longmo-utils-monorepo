@@ -2,7 +2,9 @@
 
 # Function: isProduction()
 
-> **isProduction**(): `boolean`
+```ts
+function isProduction(): boolean;
+```
 
 Checks if the current environment is production
 

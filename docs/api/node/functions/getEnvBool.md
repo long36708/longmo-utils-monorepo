@@ -2,19 +2,18 @@
 
 # Function: getEnvBool()
 
-> **getEnvBool**(`key`, `defaultValue`): `boolean`
+```ts
+function getEnvBool(key, defaultValue): boolean;
+```
 
 Gets a boolean environment variable
 
 ## Parameters
 
-### key
-
-`string`
-
-### defaultValue
-
-`boolean` = `false`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `key` | `string` | `undefined` |
+| `defaultValue` | `boolean` | `false` |
 
 ## Returns
 

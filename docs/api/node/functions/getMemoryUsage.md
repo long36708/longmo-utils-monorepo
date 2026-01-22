@@ -2,7 +2,9 @@
 
 # Function: getMemoryUsage()
 
-> **getMemoryUsage**(): `MemoryUsage`
+```ts
+function getMemoryUsage(): MemoryUsage;
+```
 
 Gets the memory usage information
 

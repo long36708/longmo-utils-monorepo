@@ -2,15 +2,17 @@
 
 # Function: remove()
 
-> **remove**(`filePath`): `Promise`\<`void`\>
+```ts
+function remove(filePath): Promise<void>;
+```
 
 Removes a file or directory recursively
 
 ## Parameters
 
-### filePath
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `filePath` | `string` |
 
 ## Returns
 

@@ -2,15 +2,17 @@
 
 # Function: camelCase()
 
-> **camelCase**(`str`): `string`
+```ts
+function camelCase(str): string;
+```
 
 Converts a string to camelCase
 
 ## Parameters
 
-### str
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `str` | `string` |
 
 ## Returns
 

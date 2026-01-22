@@ -2,35 +2,36 @@
 
 # Function: debounce()
 
-> **debounce**\<`T`\>(`fn`, `delay`): (...`args`) => `void`
+```ts
+function debounce<T>(fn, delay): (...args) => void;
+```
 
 Debounces a function call
 
 ## Type Parameters
 
-### T
-
-`T` *extends* (...`args`) => `any`
+| Type Parameter |
+| ------ |
+| `T` *extends* (...`args`) => `any` |
 
 ## Parameters
 
-### fn
-
-`T`
-
-### delay
-
-`number`
+| Parameter | Type |
+| ------ | ------ |
+| `fn` | `T` |
+| `delay` | `number` |
 
 ## Returns
 
-> (...`args`): `void`
+```ts
+(...args): void;
+```
 
 ### Parameters
 
-#### args
-
-...`Parameters`\<`T`\>
+| Parameter | Type |
+| ------ | ------ |
+| ...`args` | `Parameters`\<`T`\> |
 
 ### Returns
 

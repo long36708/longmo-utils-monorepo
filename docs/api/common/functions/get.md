@@ -2,23 +2,22 @@
 
 # Function: get()
 
-> **get**(`obj`, `path`, `defaultValue?`): `any`
+```ts
+function get(
+   obj, 
+   path, 
+   defaultValue?): any;
+```
 
 Gets a nested value from an object using a path string
 
 ## Parameters
 
-### obj
-
-`any`
-
-### path
-
-`string`
-
-### defaultValue?
-
-`any`
+| Parameter | Type |
+| ------ | ------ |
+| `obj` | `any` |
+| `path` | `string` |
+| `defaultValue?` | `any` |
 
 ## Returns
 

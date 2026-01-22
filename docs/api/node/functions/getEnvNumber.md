@@ -2,19 +2,18 @@
 
 # Function: getEnvNumber()
 
-> **getEnvNumber**(`key`, `defaultValue`): `number`
+```ts
+function getEnvNumber(key, defaultValue): number;
+```
 
 Gets a number environment variable
 
 ## Parameters
 
-### key
-
-`string`
-
-### defaultValue
-
-`number` = `0`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `key` | `string` | `undefined` |
+| `defaultValue` | `number` | `0` |
 
 ## Returns
 

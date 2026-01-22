@@ -2,35 +2,36 @@
 
 # Function: partial()
 
-> **partial**\<`T`\>(`fn`, ...`presetArgs`): (...`remainingArgs`) => `ReturnType`\<`T`\>
+```ts
+function partial<T>(fn, ...presetArgs): (...remainingArgs) => ReturnType<T>;
+```
 
 Creates a partially applied function
 
 ## Type Parameters
 
-### T
-
-`T` *extends* (...`args`) => `any`
+| Type Parameter |
+| ------ |
+| `T` *extends* (...`args`) => `any` |
 
 ## Parameters
 
-### fn
-
-`T`
-
-### presetArgs
-
-...`any`[]
+| Parameter | Type |
+| ------ | ------ |
+| `fn` | `T` |
+| ...`presetArgs` | `any`[] |
 
 ## Returns
 
-> (...`remainingArgs`): `ReturnType`\<`T`\>
+```ts
+(...remainingArgs): ReturnType<T>;
+```
 
 ### Parameters
 
-#### remainingArgs
-
-...`any`[]
+| Parameter | Type |
+| ------ | ------ |
+| ...`remainingArgs` | `any`[] |
 
 ### Returns
 

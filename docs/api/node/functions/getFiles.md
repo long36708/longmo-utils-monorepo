@@ -2,19 +2,18 @@
 
 # Function: getFiles()
 
-> **getFiles**(`dirPath`, `extensions?`): `Promise`\<`string`[]\>
+```ts
+function getFiles(dirPath, extensions?): Promise<string[]>;
+```
 
 Gets all files in a directory recursively
 
 ## Parameters
 
-### dirPath
-
-`string`
-
-### extensions?
-
-`string`[]
+| Parameter | Type |
+| ------ | ------ |
+| `dirPath` | `string` |
+| `extensions?` | `string`[] |
 
 ## Returns
 

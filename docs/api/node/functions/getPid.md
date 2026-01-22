@@ -2,7 +2,9 @@
 
 # Function: getPid()
 
-> **getPid**(): `number`
+```ts
+function getPid(): number;
+```
 
 Gets the process ID
 

@@ -2,15 +2,17 @@
 
 # Function: ensureDir()
 
-> **ensureDir**(`dirPath`): `Promise`\<`void`\>
+```ts
+function ensureDir(dirPath): Promise<void>;
+```
 
 Ensures a directory exists, creates if it doesn't
 
 ## Parameters
 
-### dirPath
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `dirPath` | `string` |
 
 ## Returns
 

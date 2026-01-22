@@ -2,19 +2,18 @@
 
 # Function: writeJson()
 
-> **writeJson**(`filePath`, `data`): `Promise`\<`void`\>
+```ts
+function writeJson(filePath, data): Promise<void>;
+```
 
 Writes data to a JSON file
 
 ## Parameters
 
-### filePath
-
-`string`
-
-### data
-
-`any`
+| Parameter | Type |
+| ------ | ------ |
+| `filePath` | `string` |
+| `data` | `any` |
 
 ## Returns
 

@@ -2,15 +2,17 @@
 
 # Function: getDirname()
 
-> **getDirname**(`url`): `string`
+```ts
+function getDirname(url): string;
+```
 
 Gets the directory name of the current module
 
 ## Parameters
 
-### url
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `url` | `string` |
 
 ## Returns
 

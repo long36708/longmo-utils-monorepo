@@ -2,7 +2,9 @@
 
 # Function: getUptime()
 
-> **getUptime**(): `number`
+```ts
+function getUptime(): number;
+```
 
 Gets the uptime in seconds
 

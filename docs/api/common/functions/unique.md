@@ -2,21 +2,23 @@
 
 # Function: unique()
 
-> **unique**\<`T`\>(`arr`): `T`[]
+```ts
+function unique<T>(arr): T[];
+```
 
 Removes duplicate values from an array
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### arr
-
-`T`[]
+| Parameter | Type |
+| ------ | ------ |
+| `arr` | `T`[] |
 
 ## Returns
 

@@ -2,19 +2,18 @@
 
 # Function: copy()
 
-> **copy**(`src`, `dest`): `Promise`\<`void`\>
+```ts
+function copy(src, dest): Promise<void>;
+```
 
 Copies a file or directory recursively
 
 ## Parameters
 
-### src
-
-`string`
-
-### dest
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `src` | `string` |
+| `dest` | `string` |
 
 ## Returns
 

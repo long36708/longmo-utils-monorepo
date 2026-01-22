@@ -2,7 +2,9 @@
 
 # Function: getPlatform()
 
-> **getPlatform**(): `Platform`
+```ts
+function getPlatform(): Platform;
+```
 
 Gets the platform (win32, darwin, linux)
 

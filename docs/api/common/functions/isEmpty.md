@@ -2,15 +2,17 @@
 
 # Function: isEmpty()
 
-> **isEmpty**(`str`): `boolean`
+```ts
+function isEmpty(str): boolean;
+```
 
 Checks if a string is empty or contains only whitespace
 
 ## Parameters
 
-### str
-
-`string` | `null` | `undefined`
+| Parameter | Type |
+| ------ | ------ |
+| `str` | `string` \| `null` \| `undefined` |
 
 ## Returns
 

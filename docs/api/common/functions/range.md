@@ -2,23 +2,22 @@
 
 # Function: range()
 
-> **range**(`start`, `end?`, `step?`): `number`[]
+```ts
+function range(
+   start, 
+   end?, 
+   step?): number[];
+```
 
 Creates an array of numbers from start to end
 
 ## Parameters
 
-### start
-
-`number`
-
-### end?
-
-`number`
-
-### step?
-
-`number` = `1`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `start` | `number` | `undefined` |
+| `end?` | `number` | `undefined` |
+| `step?` | `number` | `1` |
 
 ## Returns
 

@@ -2,25 +2,24 @@
 
 # Function: chunk()
 
-> **chunk**\<`T`\>(`arr`, `size`): `T`[][]
+```ts
+function chunk<T>(arr, size): T[][];
+```
 
 Chunks an array into smaller arrays of specified size
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### arr
-
-`T`[]
-
-### size
-
-`number`
+| Parameter | Type |
+| ------ | ------ |
+| `arr` | `T`[] |
+| `size` | `number` |
 
 ## Returns
 

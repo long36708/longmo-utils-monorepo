@@ -2,15 +2,17 @@
 
 # Function: snakeCase()
 
-> **snakeCase**(`str`): `string`
+```ts
+function snakeCase(str): string;
+```
 
 Converts a string to snake_case
 
 ## Parameters
 
-### str
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `str` | `string` |
 
 ## Returns
 

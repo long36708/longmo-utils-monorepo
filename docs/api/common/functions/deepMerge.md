@@ -2,21 +2,23 @@
 
 # Function: deepMerge()
 
-> **deepMerge**\<`T`\>(...`objects`): `T`
+```ts
+function deepMerge<T>(...objects): T;
+```
 
 Deeply merges multiple objects
 
 ## Type Parameters
 
-### T
-
-`T` *extends* `Record`\<`string`, `any`\>
+| Type Parameter |
+| ------ |
+| `T` *extends* `Record`\<`string`, `any`\> |
 
 ## Parameters
 
-### objects
-
-...`Partial`\<`T`\>[]
+| Parameter | Type |
+| ------ | ------ |
+| ...`objects` | `Partial`\<`T`\>[] |
 
 ## Returns
 

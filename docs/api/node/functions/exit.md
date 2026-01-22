@@ -2,15 +2,17 @@
 
 # Function: exit()
 
-> **exit**(`code`): `never`
+```ts
+function exit(code): never;
+```
 
 Exits the process
 
 ## Parameters
 
-### code
-
-`number` = `0`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `code` | `number` | `0` |
 
 ## Returns
 

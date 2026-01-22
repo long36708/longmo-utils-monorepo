@@ -2,15 +2,17 @@
 
 # Function: hasEnv()
 
-> **hasEnv**(`key`): `boolean`
+```ts
+function hasEnv(key): boolean;
+```
 
 Checks if an environment variable is set
 
 ## Parameters
 
-### key
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
 
 ## Returns
 

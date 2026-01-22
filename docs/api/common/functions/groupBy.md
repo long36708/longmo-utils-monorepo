@@ -2,29 +2,25 @@
 
 # Function: groupBy()
 
-> **groupBy**\<`T`, `K`\>(`arr`, `keyFn`): `Record`\<`K`, `T`[]\>
+```ts
+function groupBy<T, K>(arr, keyFn): Record<K, T[]>;
+```
 
 Groups array elements by a key function
 
 ## Type Parameters
 
-### T
-
-`T`
-
-### K
-
-`K` *extends* `string` \| `number`
+| Type Parameter |
+| ------ |
+| `T` |
+| `K` *extends* `string` \| `number` |
 
 ## Parameters
 
-### arr
-
-`T`[]
-
-### keyFn
-
-(`item`) => `K`
+| Parameter | Type |
+| ------ | ------ |
+| `arr` | `T`[] |
+| `keyFn` | (`item`) => `K` |
 
 ## Returns
 

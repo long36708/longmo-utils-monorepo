@@ -2,15 +2,17 @@
 
 # Function: exists()
 
-> **exists**(`filePath`): `Promise`\<`boolean`\>
+```ts
+function exists(filePath): Promise<boolean>;
+```
 
 Checks if a file or directory exists
 
 ## Parameters
 
-### filePath
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `filePath` | `string` |
 
 ## Returns
 

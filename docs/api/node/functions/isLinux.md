@@ -2,7 +2,9 @@
 
 # Function: isLinux()
 
-> **isLinux**(): `boolean`
+```ts
+function isLinux(): boolean;
+```
 
 Checks if the platform is Linux
 

@@ -2,19 +2,18 @@
 
 # Function: getEnv()
 
-> **getEnv**(`key`, `defaultValue?`): `string`
+```ts
+function getEnv(key, defaultValue?): string;
+```
 
 Gets an environment variable
 
 ## Parameters
 
-### key
-
-`string`
-
-### defaultValue?
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `key` | `string` |
+| `defaultValue?` | `string` |
 
 ## Returns
 

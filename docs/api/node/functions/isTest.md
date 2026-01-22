@@ -2,7 +2,9 @@
 
 # Function: isTest()
 
-> **isTest**(): `boolean`
+```ts
+function isTest(): boolean;
+```
 
 Checks if the current environment is test
 

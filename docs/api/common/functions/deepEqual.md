@@ -2,19 +2,18 @@
 
 # Function: deepEqual()
 
-> **deepEqual**(`a`, `b`): `boolean`
+```ts
+function deepEqual(a, b): boolean;
+```
 
 Checks if two objects are deeply equal
 
 ## Parameters
 
-### a
-
-`any`
-
-### b
-
-`any`
+| Parameter | Type |
+| ------ | ------ |
+| `a` | `any` |
+| `b` | `any` |
 
 ## Returns
 

@@ -2,23 +2,22 @@
 
 # Function: truncate()
 
-> **truncate**(`str`, `length`, `suffix`): `string`
+```ts
+function truncate(
+   str, 
+   length, 
+   suffix): string;
+```
 
 Truncates a string to a specified length
 
 ## Parameters
 
-### str
-
-`string`
-
-### length
-
-`number`
-
-### suffix
-
-`string` = `'...'`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `str` | `string` | `undefined` |
+| `length` | `number` | `undefined` |
+| `suffix` | `string` | `'...'` |
 
 ## Returns
 

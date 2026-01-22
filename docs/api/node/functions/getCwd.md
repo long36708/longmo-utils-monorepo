@@ -2,7 +2,9 @@
 
 # Function: getCwd()
 
-> **getCwd**(): `string`
+```ts
+function getCwd(): string;
+```
 
 Gets the current working directory
 

@@ -2,21 +2,23 @@
 
 # Function: readJson()
 
-> **readJson**\<`T`\>(`filePath`): `Promise`\<`T`\>
+```ts
+function readJson<T>(filePath): Promise<T>;
+```
 
 Reads a JSON file
 
 ## Type Parameters
 
-### T
-
-`T` = `any`
+| Type Parameter | Default type |
+| ------ | ------ |
+| `T` | `any` |
 
 ## Parameters
 
-### filePath
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `filePath` | `string` |
 
 ## Returns
 

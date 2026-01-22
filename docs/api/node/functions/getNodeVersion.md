@@ -2,7 +2,9 @@
 
 # Function: getNodeVersion()
 
-> **getNodeVersion**(): `string`
+```ts
+function getNodeVersion(): string;
+```
 
 Gets the Node.js version
 

@@ -2,21 +2,23 @@
 
 # Function: deepClone()
 
-> **deepClone**\<`T`\>(`obj`): `T`
+```ts
+function deepClone<T>(obj): T;
+```
 
 Creates a deep clone of an object
 
 ## Type Parameters
 
-### T
-
-`T`
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-### obj
-
-`T`
+| Parameter | Type |
+| ------ | ------ |
+| `obj` | `T` |
 
 ## Returns
 

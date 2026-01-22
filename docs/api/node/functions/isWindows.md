@@ -2,7 +2,9 @@
 
 # Function: isWindows()
 
-> **isWindows**(): `boolean`
+```ts
+function isWindows(): boolean;
+```
 
 Checks if the platform is Windows
 

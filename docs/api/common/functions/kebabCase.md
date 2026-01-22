@@ -2,15 +2,17 @@
 
 # Function: kebabCase()
 
-> **kebabCase**(`str`): `string`
+```ts
+function kebabCase(str): string;
+```
 
 Converts a string to kebab-case
 
 ## Parameters
 
-### str
-
-`string`
+| Parameter | Type |
+| ------ | ------ |
+| `str` | `string` |
 
 ## Returns
 

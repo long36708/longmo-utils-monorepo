@@ -2,15 +2,17 @@
 
 # Function: random()
 
-> **random**(`length`): `string`
+```ts
+function random(length): string;
+```
 
 Generates a random string of specified length
 
 ## Parameters
 
-### length
-
-`number` = `8`
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `length` | `number` | `8` |
 
 ## Returns
 
