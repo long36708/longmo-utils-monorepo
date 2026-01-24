@@ -1,56 +1,69 @@
 ---
 home: true
 heroText: Longmoo Utils
-tagline: High-quality TypeScript utility library
-actionText: Get Started →
+tagline: 高质量的 TypeScript 工具库
+actionText: 快速开始 →
 actionLink: /guide/
 features:
-  - title: Fully Typed
-    details: Built with TypeScript for excellent type inference and autocompletion
-  - title: Zero Dependencies
-    details: No external runtime dependencies for faster load times
-  - title: Tree-shakeable
-    details: Only bundle what you use with ES modules
-  - title: Platform-specific
-    details: Optimized packages for Common, Browser, and Node.js environments
-  - title: Well Tested
-    details: Comprehensive test coverage with Vitest
-  - title: Easy to Use
-    details: Simple and intuitive API design
+  - title: 完整的类型支持
+    details: 使用 TypeScript 构建，提供优秀的类型推断和自动补全
+  - title: 零外部依赖
+    details: 无外部运行时依赖，加载更快
+  - title: 支持 Tree-shaking
+    details: 使用 ES 模块，只打包你使用的代码
+  - title: 平台特定优化
+    details: 为 Common、Browser 和 Node.js 环境提供优化的包
+  - title: 完善的测试
+    details: 使用 Vitest 进行全面的测试覆盖
+  - title: 简单易用
+    details: 简单直观的 API 设计
 footer: MIT License | Copyright © 2025 Longmoo
 ---
 
-## Quick Start
+## 快速开始
 
-### Installation
+### 安装
+
+我们推荐使用 `longmo-utils` 统一包，一次安装即可使用所有功能。
 
 ```bash
-# Install the package you need
+# 推荐：统一包（包含所有功能）
+pnpm add longmo-utils
+```
+
+如果您只需要特定平台的功能，也可以单独安装：
+
+```bash
+# 通用工具（所有环境）
 pnpm add @longmo-utils/common
-# or
+# 或 浏览器工具
 pnpm add @longmo-utils/browser
-# or
+# 或 Node.js 工具
 pnpm add @longmo-utils/node
 ```
 
-### Usage
+### 使用
 
 ```typescript
-import { unique, debounce, camelCase } from '@longmo-utils/common'
+import { unique, debounce, camelCase, querySelector } from 'longmo-utils'
 
-// Array utilities
+// 数组工具
 const uniqueArray = unique([1, 2, 2, 3, 3, 4])
 
-// Function utilities
+// 函数工具
 const debouncedFn = debounce(() => console.log('Hello'), 300)
 
-// String utilities
+// 字符串工具
 const result = camelCase('hello-world')
+
+// 浏览器工具
+const button = querySelector('.my-button')
 ```
 
-## Documentation
+## 文档
 
-- [Guide](/guide/) - Get started with the library
-- [API Reference - Common](/api/common/) - Common utilities API
-- [API Reference - Browser](/api/browser/) - Browser utilities API
-- [API Reference - Node](/api/node/) - Node.js utilities API
+- [快速开始](/guide/) - 开始使用本库
+- [API 文档 - longmo-utils](/api/longmo-utils/) - 统一包 API
+- [API 文档 - Common](/api/common/) - 通用工具 API
+- [API 文档 - Browser](/api/browser/) - 浏览器工具 API
+- [API 文档 - Node](/api/node/) - Node.js 工具 API

@@ -1,0 +1,53 @@
+{
+  "name": "longmo-utils",
+  "version": "1.0.0",
+  "description": "Longmoo Utils - Universal utility library combining browser, common, and node utilities",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "browser": "./dist/index.mjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "browser",
+    "nodejs",
+    "universal",
+    "common",
+    "dom",
+    "filesystem"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@longmo-utils/common": "workspace:*",
+    "@longmo-utils/browser": "workspace:*",
+    "@longmo-utils/node": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@longmo-utils/browser": {
+      "optional": true
+    },
+    "@longmo-utils/node": {
+      "optional": true
+    }
+  }
+}

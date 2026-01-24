@@ -12,12 +12,16 @@
         "link": "/api/node/functions/getEnvBool.md"
       },
       {
+        "text": "getEnvMode",
+        "link": "/api/node/functions/getEnvMode.md"
+      },
+      {
         "text": "getEnvNumber",
         "link": "/api/node/functions/getEnvNumber.md"
       },
       {
-        "text": "getEnvMode",
-        "link": "/api/node/functions/getEnvMode.md"
+        "text": "hasEnv",
+        "link": "/api/node/functions/hasEnv.md"
       },
       {
         "text": "isDevelopment",
@@ -28,52 +32,56 @@
         "link": "/api/node/functions/isProduction.md"
       },
       {
-        "text": "isTest",
-        "link": "/api/node/functions/isTest.md"
-      },
-      {
-        "text": "hasEnv",
-        "link": "/api/node/functions/hasEnv.md"
-      },
-      {
-        "text": "readJson",
-        "link": "/api/node/functions/readJson.md"
-      },
-      {
-        "text": "writeJson",
-        "link": "/api/node/functions/writeJson.md"
+        "text": "copy",
+        "link": "/api/node/functions/copy.md"
       },
       {
         "text": "ensureDir",
         "link": "/api/node/functions/ensureDir.md"
       },
       {
-        "text": "remove",
-        "link": "/api/node/functions/remove.md"
-      },
-      {
-        "text": "copy",
-        "link": "/api/node/functions/copy.md"
-      },
-      {
         "text": "exists",
         "link": "/api/node/functions/exists.md"
-      },
-      {
-        "text": "readFileOrDefault",
-        "link": "/api/node/functions/readFileOrDefault.md"
-      },
-      {
-        "text": "getFiles",
-        "link": "/api/node/functions/getFiles.md"
       },
       {
         "text": "getDirname",
         "link": "/api/node/functions/getDirname.md"
       },
       {
+        "text": "getFiles",
+        "link": "/api/node/functions/getFiles.md"
+      },
+      {
+        "text": "readFileOrDefault",
+        "link": "/api/node/functions/readFileOrDefault.md"
+      },
+      {
+        "text": "readJson",
+        "link": "/api/node/functions/readJson.md"
+      },
+      {
+        "text": "remove",
+        "link": "/api/node/functions/remove.md"
+      },
+      {
+        "text": "writeJson",
+        "link": "/api/node/functions/writeJson.md"
+      },
+      {
+        "text": "exit",
+        "link": "/api/node/functions/exit.md"
+      },
+      {
         "text": "getCwd",
         "link": "/api/node/functions/getCwd.md"
+      },
+      {
+        "text": "getMemoryUsage",
+        "link": "/api/node/functions/getMemoryUsage.md"
+      },
+      {
+        "text": "getNodeVersion",
+        "link": "/api/node/functions/getNodeVersion.md"
       },
       {
         "text": "getPid",
@@ -84,32 +92,20 @@
         "link": "/api/node/functions/getPlatform.md"
       },
       {
-        "text": "isWindows",
-        "link": "/api/node/functions/isWindows.md"
-      },
-      {
-        "text": "isMac",
-        "link": "/api/node/functions/isMac.md"
+        "text": "getUptime",
+        "link": "/api/node/functions/getUptime.md"
       },
       {
         "text": "isLinux",
         "link": "/api/node/functions/isLinux.md"
       },
       {
-        "text": "getNodeVersion",
-        "link": "/api/node/functions/getNodeVersion.md"
+        "text": "isMac",
+        "link": "/api/node/functions/isMac.md"
       },
       {
-        "text": "exit",
-        "link": "/api/node/functions/exit.md"
-      },
-      {
-        "text": "getMemoryUsage",
-        "link": "/api/node/functions/getMemoryUsage.md"
-      },
-      {
-        "text": "getUptime",
-        "link": "/api/node/functions/getUptime.md"
+        "text": "isWindows",
+        "link": "/api/node/functions/isWindows.md"
       }
     ]
   }

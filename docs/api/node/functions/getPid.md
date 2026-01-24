@@ -6,8 +6,17 @@
 function getPid(): number;
 ```
 
-Gets the process ID
+获取进程 ID
 
 ## Returns
 
 `number`
+
+进程 ID
+
+## Example
+
+```ts
+const pid = getPid()
+console.log(pid) // 12345
+```

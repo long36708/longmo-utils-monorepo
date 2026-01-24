@@ -6,8 +6,18 @@
 function isDevelopment(): boolean;
 ```
 
-Checks if the current environment is development
+检查当前环境是否为开发环境
 
 ## Returns
 
 `boolean`
+
+是否为开发环境
+
+## Example
+
+```ts
+if (isDevelopment()) {
+  console.log('Running in development mode')
+}
+```

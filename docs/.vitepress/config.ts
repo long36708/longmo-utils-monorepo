@@ -4,8 +4,8 @@ import browserSidebar from '../api/browser/typedoc-sidebar.json'
 import nodeSidebar from '../api/node/typedoc-sidebar.json'
 
 export default defineConfig({
-  title: 'Longmoo Utils',
-  description: 'High-quality TypeScript utility library',
+  title: 'Longmo Utils',
+  description: '高质量的 TypeScript 工具库',
 
   base: '/longmo-utils-monorepo/',
   lastUpdated: true,
@@ -18,6 +18,7 @@ export default defineConfig({
       {
         text: 'Packages',
         items: [
+          { text: 'longmo-utils', link: '/api/longmo-utils/index.md' },
           { text: '@longmo-utils/common', link: '/api/common/index.md' },
           { text: '@longmo-utils/browser', link: '/api/browser/index.md' },
           { text: '@longmo-utils/node', link: '/api/node/index.md' }
@@ -31,6 +32,14 @@ export default defineConfig({
           text: 'Guide',
           items: [
             { text: 'Getting Started', link: '/guide/' }
+          ]
+        }
+      ],
+      '/api/longmo-utils/': [
+        {
+          text: 'longmo-utils',
+          items: [
+            { text: 'Overview', link: '/api/longmo-utils/index.md' }
           ]
         }
       ],

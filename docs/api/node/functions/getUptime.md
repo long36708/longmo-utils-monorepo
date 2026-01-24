@@ -6,8 +6,17 @@
 function getUptime(): number;
 ```
 
-Gets the uptime in seconds
+获取进程运行时间（秒）
 
 ## Returns
 
 `number`
+
+运行时间（秒）
+
+## Example
+
+```ts
+const uptime = getUptime()
+console.log(uptime) // 3600
+```

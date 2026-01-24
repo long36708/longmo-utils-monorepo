@@ -6,8 +6,18 @@
 function isLinux(): boolean;
 ```
 
-Checks if the platform is Linux
+检查当前平台是否为 Linux
 
 ## Returns
 
 `boolean`
+
+是否为 Linux
+
+## Example
+
+```ts
+if (isLinux()) {
+  console.log('Running on Linux')
+}
+```

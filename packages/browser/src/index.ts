@@ -5,4 +5,4 @@
 
 export * from './storage'
 export * from './dom'
-export * from './network'
+export * from './clipboard'

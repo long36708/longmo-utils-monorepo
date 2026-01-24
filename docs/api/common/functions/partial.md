@@ -6,7 +6,7 @@
 function partial<T>(fn, ...presetArgs): (...remainingArgs) => ReturnType<T>;
 ```
 
-Creates a partially applied function
+创建偏函数，预设部分参数
 
 ## Type Parameters
 
@@ -16,12 +16,14 @@ Creates a partially applied function
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `fn` | `T` |
-| ...`presetArgs` | `any`[] |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `fn` | `T` | 原始函数 |
+| ...`presetArgs` | `any`[] | 预设的参数 |
 
 ## Returns
+
+偏函数
 
 ```ts
 (...remainingArgs): ReturnType<T>;
@@ -36,3 +38,11 @@ Creates a partially applied function
 ### Returns
 
 `ReturnType`\<`T`\>
+
+## Example
+
+```ts
+const add = (a: number, b: number) => a + b
+const add5 = partial(add, 5)
+add5(3) // 8
+```

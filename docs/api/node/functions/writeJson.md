@@ -6,15 +6,21 @@
 function writeJson(filePath, data): Promise<void>;
 ```
 
-Writes data to a JSON file
+将数据写入 JSON 文件
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `filePath` | `string` |
-| `data` | `any` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `filePath` | `string` | 文件路径 |
+| `data` | `any` | 要写入的数据 |
 
 ## Returns
 
 `Promise`\<`void`\>
+
+## Example
+
+```ts
+await writeJson('./config.json', { name: 'test' })
+```

@@ -6,7 +6,7 @@
 function throttle<T>(fn, delay): (...args) => void;
 ```
 
-Throttles a function call
+节流函数，限制函数执行频率
 
 ## Type Parameters
 
@@ -16,12 +16,14 @@ Throttles a function call
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `fn` | `T` |
-| `delay` | `number` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `fn` | `T` | 要执行的函数 |
+| `delay` | `number` | 节流时间间隔（毫秒） |
 
 ## Returns
+
+节流后的函数
 
 ```ts
 (...args): void;
@@ -36,3 +38,11 @@ Throttles a function call
 ### Returns
 
 `void`
+
+## Example
+
+```ts
+const throttledFn = throttle(() => console.log('hello'), 300)
+throttledFn() // 立即执行
+throttledFn() // 300ms 内不执行
+```

@@ -6,14 +6,24 @@
 function hasEnv(key): boolean;
 ```
 
-Checks if an environment variable is set
+检查环境变量是否已设置
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `key` | `string` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `key` | `string` | 环境变量键 |
 
 ## Returns
 
 `boolean`
+
+是否已设置
+
+## Example
+
+```ts
+if (hasEnv('API_KEY')) {
+  console.log('API_KEY is set')
+}
+```

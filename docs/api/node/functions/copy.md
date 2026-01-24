@@ -6,15 +6,21 @@
 function copy(src, dest): Promise<void>;
 ```
 
-Copies a file or directory recursively
+递归复制文件或目录
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `src` | `string` |
-| `dest` | `string` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `src` | `string` | 源路径 |
+| `dest` | `string` | 目标路径 |
 
 ## Returns
 
 `Promise`\<`void`\>
+
+## Example
+
+```ts
+await copy('./src', './dist')
+```

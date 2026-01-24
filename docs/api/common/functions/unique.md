@@ -6,7 +6,7 @@
 function unique<T>(arr): T[];
 ```
 
-Removes duplicate values from an array
+移除数组中的重复值
 
 ## Type Parameters
 
@@ -16,10 +16,19 @@ Removes duplicate values from an array
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `arr` | `T`[] |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `arr` | `T`[] | 输入数组 |
 
 ## Returns
 
 `T`[]
+
+去除重复值后的新数组
+
+## Example
+
+```ts
+unique([1, 2, 2, 3, 3, 3]) // [1, 2, 3]
+unique(['a', 'b', 'a', 'c']) // ['a', 'b', 'c']
+```

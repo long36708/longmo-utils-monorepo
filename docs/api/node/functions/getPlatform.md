@@ -6,8 +6,17 @@
 function getPlatform(): Platform;
 ```
 
-Gets the platform (win32, darwin, linux)
+获取当前平台
 
 ## Returns
 
 `Platform`
+
+平台名称（win32、darwin、linux 等）
+
+## Example
+
+```ts
+const platform = getPlatform()
+console.log(platform) // 'win32' | 'darwin' | 'linux'
+```

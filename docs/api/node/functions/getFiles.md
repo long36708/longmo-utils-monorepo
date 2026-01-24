@@ -6,15 +6,24 @@
 function getFiles(dirPath, extensions?): Promise<string[]>;
 ```
 
-Gets all files in a directory recursively
+递归获取目录下的所有文件
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `dirPath` | `string` |
-| `extensions?` | `string`[] |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `dirPath` | `string` | 目录路径 |
+| `extensions?` | `string`[] | 可选的文件扩展名过滤器 |
 
 ## Returns
 
 `Promise`\<`string`[]\>
+
+文件路径数组
+
+## Example
+
+```ts
+const allFiles = await getFiles('./src')
+const tsFiles = await getFiles('./src', ['.ts', '.tsx'])
+```

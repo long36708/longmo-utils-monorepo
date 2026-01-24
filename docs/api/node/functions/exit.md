@@ -6,14 +6,23 @@
 function exit(code): never;
 ```
 
-Exits the process
+退出当前进程
 
 ## Parameters
 
-| Parameter | Type | Default value |
-| ------ | ------ | ------ |
-| `code` | `number` | `0` |
+| Parameter | Type | Default value | Description |
+| ------ | ------ | ------ | ------ |
+| `code` | `number` | `0` | 退出码（默认: 0） |
 
 ## Returns
 
 `never`
+
+never
+
+## Example
+
+```ts
+exit(0) // 正常退出
+exit(1) // 异常退出
+```

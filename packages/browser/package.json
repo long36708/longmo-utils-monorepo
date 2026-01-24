@@ -30,5 +30,9 @@
     "bom"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "copy-text-to-clipboard": "^3.2.2"
+  }
+
 }

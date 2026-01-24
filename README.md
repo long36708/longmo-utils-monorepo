@@ -20,17 +20,31 @@ A high-quality TypeScript utility library with platform-specific packages, built
 ## 🚀 Installation
 
 ```bash
-# Install the universal package
+# Install the unified package (recommended for quick start)
+npm install longmo-utils
+
+# Or install individual packages
 npm install @longmo-utils/common
-
-# Install browser utilities
 npm install @longmo-utils/browser
-
-# Install Node.js utilities
 npm install @longmo-utils/node
 ```
 
 ## 📖 Usage
+
+### Unified Package (All-in-One)
+
+```typescript
+import { deepMerge, debounce, unique } from 'longmo-utils'
+import { getLocalStorage, $, copyToClipboard } from 'longmo-utils'
+import { readJson, getEnv, ensureDir } from 'longmo-utils'
+
+// All utilities are available from a single package
+const merged = deepMerge({ a: 1 }, { b: 2 })
+const data = getLocalStorage('key')
+const config = await readJson('./config.json')
+```
+
+**Benefits**: One installation, access to all utilities, full TypeScript support, tree-shaking for optimal bundle size.
 
 ### Common (Universal)
 
@@ -114,6 +128,14 @@ pnpm docs
 ```
 longmoo-utils-monorepo/
 ├── packages/
+│   ├── longmo-utils/                    # 🆕 Unified package (all utilities)
+│   │   ├── src/
+│   │   │   └── index.ts                 # Re-exports all packages
+│   │   ├── dist/                        # Build output (ESM + CJS + Types)
+│   │   ├── package.json
+│   │   ├── tsconfig.json
+│   │   └── README.md
+│   │
 │   ├── common/                          # Universal utilities
 │   │   ├── src/
 │   │   │   ├── array/                  # Array utilities
@@ -184,6 +206,13 @@ longmoo-utils-monorepo/
 ```
 
 ### Package Details
+
+#### longmo-utils (Unified)
+- **Build Output**: ESM (`*.mjs`) + CJS (`*.cjs`) + TypeScript definitions (`*.d.mts`)
+- **Dependencies**: @longmo-utils/common, @longmo-utils/browser, @longmo-utils/node
+- **Tree-shaking**: Fully supported (only used code is bundled)
+- **Build Tool**: tsdown
+- **Best for**: Quick prototyping, projects needing utilities from multiple packages
 
 #### @longmo-utils/common
 - **Build Output**: ESM (`*.mjs`) + CJS (`*.cjs`) + TypeScript definitions (`*.d.mts`, `*.d.cts`)

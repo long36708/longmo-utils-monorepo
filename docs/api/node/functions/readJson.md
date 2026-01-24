@@ -6,7 +6,7 @@
 function readJson<T>(filePath): Promise<T>;
 ```
 
-Reads a JSON file
+读取 JSON 文件
 
 ## Type Parameters
 
@@ -16,10 +16,18 @@ Reads a JSON file
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `filePath` | `string` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `filePath` | `string` | 文件路径 |
 
 ## Returns
 
 `Promise`\<`T`\>
+
+解析后的 JSON 数据
+
+## Example
+
+```ts
+const data = await readJson('./config.json')
+```

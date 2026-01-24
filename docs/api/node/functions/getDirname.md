@@ -6,14 +6,22 @@
 function getDirname(url): string;
 ```
 
-Gets the directory name of the current module
+获取当前模块的目录名
 
 ## Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `url` | `string` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `url` | `string` | 模块的 URL |
 
 ## Returns
 
 `string`
+
+目录名
+
+## Example
+
+```ts
+const __dirname = getDirname(import.meta.url)
+```

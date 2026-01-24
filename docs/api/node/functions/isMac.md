@@ -6,8 +6,18 @@
 function isMac(): boolean;
 ```
 
-Checks if the platform is macOS
+检查当前平台是否为 macOS
 
 ## Returns
 
 `boolean`
+
+是否为 macOS
+
+## Example
+
+```ts
+if (isMac()) {
+  console.log('Running on macOS')
+}
+```
