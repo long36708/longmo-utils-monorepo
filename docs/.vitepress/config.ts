@@ -7,6 +7,7 @@ export default defineConfig({
   title: 'Longmoo Utils',
   description: 'High-quality TypeScript utility library',
 
+  base: '/longmoo-utils-monorepo/',
   lastUpdated: true,
   cleanUrls: true,
 
