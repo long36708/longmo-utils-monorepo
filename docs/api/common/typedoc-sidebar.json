@@ -1,8 +1,70 @@
 [
   {
+    "text": "Variables",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "_version",
+        "link": "/api/common/variables/version.md"
+      }
+    ]
+  },
+  {
     "text": "Functions",
     "collapsed": false,
     "items": [
+      {
+        "text": "getDayjs",
+        "link": "/api/common/functions/getDayjs.md"
+      },
+      {
+        "text": "getDayjsSync",
+        "link": "/api/common/functions/getDayjsSync.md"
+      },
+      {
+        "text": "getNumeral",
+        "link": "/api/common/functions/getNumeral.md"
+      },
+      {
+        "text": "getNumeralSync",
+        "link": "/api/common/functions/getNumeralSync.md"
+      },
+      {
+        "text": "convertChineseNumber",
+        "link": "/api/common/functions/convertChineseNumber.md"
+      },
+      {
+        "text": "convertCurrency",
+        "link": "/api/common/functions/convertCurrency.md"
+      },
+      {
+        "text": "format",
+        "link": "/api/common/functions/format.md"
+      },
+      {
+        "text": "formatMoney",
+        "link": "/api/common/functions/formatMoney.md"
+      },
+      {
+        "text": "formatNumber",
+        "link": "/api/common/functions/formatNumber.md"
+      },
+      {
+        "text": "formatPercentage",
+        "link": "/api/common/functions/formatPercentage.md"
+      },
+      {
+        "text": "getFormatStr",
+        "link": "/api/common/functions/getFormatStr.md"
+      },
+      {
+        "text": "toFixed",
+        "link": "/api/common/functions/toFixed.md"
+      },
+      {
+        "text": "unformat",
+        "link": "/api/common/functions/unformat.md"
+      },
       {
         "text": "chunk",
         "link": "/api/common/functions/chunk.md"

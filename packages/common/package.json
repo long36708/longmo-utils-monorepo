@@ -11,7 +11,8 @@
       "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -28,5 +29,21 @@
     "common"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "numeral": "^2.0.6",
+    "dayjs": "^1.11.19"
+  },
+  "peerDependencies": {
+    "numeral": "^2.0.6",
+    "dayjs": "^1.11.19"
+  },
+  "peerDependenciesMeta": {
+    "numeral": {
+      "optional": true
+    },
+    "dayjs": {
+      "optional": true
+    }
+  }
 }

@@ -10,7 +10,8 @@
     ".": {
       "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "browser": "./dist/index.js",
   "sideEffects": false,

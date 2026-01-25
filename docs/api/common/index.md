@@ -1,9 +1,28 @@
 # @longmo-utils/common
 
+## Variables
+
+| Variable | Description |
+| ------ | ------ |
+| [\_version](variables/version.md) | 工具箱版本 |
+
 ## Functions
 
 | Function | Description |
 | ------ | ------ |
+| [getDayjs](functions/getDayjs.md) | 异步获取 Dayjs 实例（已配置中文本地化和季度插件） 这是一个懒加载导入，避免将 dayjs 作为直接依赖 |
+| [getDayjsSync](functions/getDayjsSync.md) | 同步获取 Dayjs 实例（仅用于测试环境） 使用 ESM 动态导入，配合 vitest setupFiles 预加载使用 |
+| [getNumeral](functions/getNumeral.md) | 异步获取 Numeral 实例（已配置中文本地化） 这是一个懒加载导入，避免将 numeral 作为直接依赖 |
+| [getNumeralSync](functions/getNumeralSync.md) | 同步获取 Numeral 实例（仅用于测试环境） 使用 ESM 动态导入，配合 vitest setupFiles 预加载使用 |
+| [convertChineseNumber](functions/convertChineseNumber.md) | 阿拉伯数字转中文数字 |
+| [convertCurrency](functions/convertCurrency.md) | 阿拉伯数字换成汉字大写金额 |
+| [format](functions/format.md) | 通用格式化，需要手动指定格式 |
+| [formatMoney](functions/formatMoney.md) | 金额格式化 |
+| [formatNumber](functions/formatNumber.md) | 数字格式化 |
+| [formatPercentage](functions/formatPercentage.md) | 百分比格式化 |
+| [getFormatStr](functions/getFormatStr.md) | 快速生成numeraljs格式字符串, 处理千分位和小数位，可以继续使用format方法进行格式化，小数位处理方式四舍五入 |
+| [toFixed](functions/toFixed.md) | 数字格式化，指定需要保留的小数位数，解决部分浏览器兼容性问题，如`(0.615).toFixed(2) === '0.61');` |
+| [unformat](functions/unformat.md) | 反格式化，自动识别格式 |
 | [chunk](functions/chunk.md) | 将数组拆分成指定大小的子数组 |
 | [groupBy](functions/groupBy.md) | 根据键函数对数组元素进行分组 |
 | [unique](functions/unique.md) | 数组工具函数 |
