@@ -12,6 +12,7 @@
     "build:node": "pnpm --filter @longmo-utils/node run build",
     "build:all": "pnpm build",
     "test": "vitest run",
+    "pb": "sheep release -b main --force",
     "test:browser": "vitest run --config vitest.browser.config.ts",
     "lint": "eslint . --ext .ts,.tsx",
     "clean": "pnpm --filter './packages/*' run clean && rm -rf node_modules",
@@ -25,6 +26,8 @@
     "docs": "pnpm docs:api && pnpm docs:build"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@akryum/sheep": "^0.5.2",
     "@eslint/js": "^9.39.2",
     "@types/node": "^20.19.30",
     "@typescript-eslint/eslint-plugin": "^8.26.1",

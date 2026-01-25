@@ -55,5 +55,8 @@
     "theme-colors": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

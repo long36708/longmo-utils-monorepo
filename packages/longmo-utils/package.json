@@ -1,5 +1,5 @@
 {
-  "name": "longmo-utils",
+  "name": "@longmo-utils/lib",
   "version": "1.0.0",
   "description": "Longmoo Utils - Universal utility library combining browser, common, and node utilities",
   "type": "module",
@@ -49,5 +49,8 @@
     "@longmo-utils/node": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
