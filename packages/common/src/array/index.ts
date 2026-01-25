@@ -5,3 +5,4 @@
 export { unique } from './unique'
 export { groupBy } from './groupBy'
 export { chunk } from './chunk'
+export { uniqueByField } from './uniqueByField'

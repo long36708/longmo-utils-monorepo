@@ -32,17 +32,22 @@
   "license": "MIT",
   "devDependencies": {
     "numeral": "^2.0.6",
-    "dayjs": "^1.11.19"
+    "dayjs": "^1.11.19",
+    "@ctrl/tinycolor": "^3.4.1"
   },
   "peerDependencies": {
     "numeral": "^2.0.6",
-    "dayjs": "^1.11.19"
+    "dayjs": "^1.11.19",
+    "@ctrl/tinycolor": "^3.4.1"
   },
   "peerDependenciesMeta": {
     "numeral": {
       "optional": true
     },
     "dayjs": {
+      "optional": true
+    },
+    "@ctrl/tinycolor": {
       "optional": true
     }
   }

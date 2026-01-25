@@ -6,3 +6,5 @@
 export * from './storage'
 export * from './dom'
 export * from './clipboard'
+export * from './cache'
+export * from './window'

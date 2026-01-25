@@ -1,7 +1,32 @@
 /**
  * 阿拉伯数字对应的汉字
  */
-const CN_CHAR: Record<string, string> = {
+interface CNCharType {
+  '$0': string
+  '$1': string
+  '$2': string
+  '$3': string
+  '$4': string
+  '$5': string
+  '$6': string
+  '$7': string
+  '$8': string
+  '$9': string
+  '$10': string
+  '$100': string
+  '$1000': string
+  '$10000': string
+  '$100000000': string
+  'CN_SYMBOL': string
+  'DOLLAR': string
+  '$0.1': string
+  '$0.01': string
+  '$0.001': string
+  '$0.0001': string
+  'INTEGER': string
+}
+
+const CN_CHAR: CNCharType = {
   '$0': '\u96F6',
   '$1': '\u58F9',
   '$2': '\u8D30',

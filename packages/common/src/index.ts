@@ -10,6 +10,9 @@ export * from './string'
 export * from './util'
 export * from './url'
 export * from './accountant'
+export * from './color'
+export * from './date'
+export * from './tree'
 
 // 内部可选依赖导出（仅供包内部使用）
 export { getNumeral, getNumeralSync } from './_internal/_numeral'
