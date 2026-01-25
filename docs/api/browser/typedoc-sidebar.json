@@ -1,5 +1,15 @@
 [
   {
+    "text": "Variables",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "DEFAULT_FILENAME",
+        "link": "/api/browser/variables/DEFAULT_FILENAME.md"
+      }
+    ]
+  },
+  {
     "text": "Functions",
     "collapsed": false,
     "items": [
@@ -60,6 +70,34 @@
         "link": "/api/browser/functions/scrollIntoView.md"
       },
       {
+        "text": "downloadFileFromBase64",
+        "link": "/api/browser/functions/downloadFileFromBase64.md"
+      },
+      {
+        "text": "downloadFileFromBlob",
+        "link": "/api/browser/functions/downloadFileFromBlob.md"
+      },
+      {
+        "text": "downloadFileFromBlobPart",
+        "link": "/api/browser/functions/downloadFileFromBlobPart.md"
+      },
+      {
+        "text": "downloadFileFromImageUrl",
+        "link": "/api/browser/functions/downloadFileFromImageUrl.md"
+      },
+      {
+        "text": "downloadFileFromUrl",
+        "link": "/api/browser/functions/downloadFileFromUrl.md"
+      },
+      {
+        "text": "triggerDownload",
+        "link": "/api/browser/functions/triggerDownload.md"
+      },
+      {
+        "text": "urlToBase64",
+        "link": "/api/browser/functions/urlToBase64.md"
+      },
+      {
         "text": "getLocalStorage",
         "link": "/api/browser/functions/getLocalStorage.md"
       },
@@ -86,6 +124,38 @@
       {
         "text": "removeSessionStorage",
         "link": "/api/browser/functions/removeSessionStorage.md"
+      },
+      {
+        "text": "openRouteInNewWindow",
+        "link": "/api/browser/functions/openRouteInNewWindow.md"
+      },
+      {
+        "text": "openWindow",
+        "link": "/api/browser/functions/openWindow.md"
+      }
+    ]
+  },
+  {
+    "text": "Classes",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "StorageManager",
+        "link": "/api/browser/classes/StorageManager.md"
+      }
+    ]
+  },
+  {
+    "text": "Interfaces",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "DownloadOptions",
+        "link": "/api/browser/interfaces/DownloadOptions.md"
+      },
+      {
+        "text": "OpenWindowOptions",
+        "link": "/api/browser/interfaces/OpenWindowOptions.md"
       }
     ]
   }

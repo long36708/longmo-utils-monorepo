@@ -26,6 +26,21 @@
 | [chunk](functions/chunk.md) | 将数组拆分成指定大小的子数组 |
 | [groupBy](functions/groupBy.md) | 根据键函数对数组元素进行分组 |
 | [unique](functions/unique.md) | 数组工具函数 |
+| [uniqueByField](functions/uniqueByField.md) | 根据指定字段对对象数组进行去重 |
+| [isDarkColor](functions/isDarkColor.md) | - |
+| [isLightColor](functions/isLightColor.md) | - |
+| [convertToHsl](functions/convertToHsl.md) | 将颜色转换为HSL格式。 |
+| [convertToHslCssVar](functions/convertToHslCssVar.md) | 将颜色转换为HSL CSS变量。 |
+| [convertToRgb](functions/convertToRgb.md) | 将颜色转换为RGB颜色字符串 TinyColor无法处理hsl内包含'deg'、'grad'、'rad'或'turn'的字符串 比如 hsl(231deg 98% 65%)将被解析为rgb(0, 0, 0) 这里在转换之前先将这些单位去掉 |
+| [isValidColor](functions/isValidColor.md) | 检查颜色是否有效 |
+| [generatorColorVariables](functions/generatorColorVariables.md) | - |
+| [getSystemTimezone](functions/getSystemTimezone.md) | 获取当前时区 |
+| [setCurrentTimezone](functions/setCurrentTimezone.md) | 设置默认时区 |
+| [getCurrentTimezone](functions/getCurrentTimezone.md) | 获取设置的时区 |
+| [formatDate](functions/formatDate.md) | 格式化日期 |
+| [formatDateTime](functions/formatDateTime.md) | 格式化日期时间 |
+| [isDateInstance](functions/isDateInstance.md) | 检查值是否为 Date 实例 |
+| [isDayjsObject](functions/isDayjsObject.md) | 检查值是否为 dayjs 对象 |
 | [debounce](functions/debounce.md) | 防抖函数，延迟执行函数 |
 | [memoize](functions/memoize.md) | 创建函数的记忆化版本，缓存函数结果 |
 | [partial](functions/partial.md) | 创建偏函数，预设部分参数 |
@@ -44,6 +59,10 @@
 | [safeParseJson](functions/safeParseJson.md) | 安全的JSON字符串解析 |
 | [snakeCase](functions/snakeCase.md) | 将字符串转换为下划线命名 |
 | [truncate](functions/truncate.md) | 截断字符串到指定长度 |
+| [filterTree](functions/filterTree.md) | 根据条件过滤给定树结构的节点 |
+| [mapTree](functions/mapTree.md) | 根据条件重新映射给定树结构的节点 |
+| [sortTree](functions/sortTree.md) | 对树形结构数据进行递归排序 |
+| [traverseTreeValues](functions/traverseTreeValues.md) | 遍历树形结构，并返回所有节点中指定的值 |
 | [parseQueryString](functions/parseQueryString.md) | 解析URL查询字符串，转换成JSON格式 |
 | [querystringify](functions/querystringify.md) | querystring转换成对象 |
 | [urlParse](functions/urlParse.md) | url解析，在URL基础上扩展了查询字符串解析对象 |
@@ -66,14 +85,23 @@
 | [isTypeOf](functions/isTypeOf.md) | 安全的类型检查 |
 | [isUndefined](functions/isUndefined.md) | 是否是undefined |
 
+## Classes
+
+| Class | Description |
+| ------ | ------ |
+| [TinyColor](classes/TinyColor.md) | - |
+
 ## Interfaces
 
 | Interface | Description |
 | ------ | ------ |
+| [TreeConfigOptions](interfaces/TreeConfigOptions.md) | 树形配置选项接口 |
 | [IURL](interfaces/IURL.md) | urlParse 解析返回类型 |
 
 ## Type Aliases
 
 | Type Alias | Description |
 | ------ | ------ |
+| [FormatDate](type-aliases/FormatDate.md) | 日期输入类型 |
+| [Format](type-aliases/Format.md) | 日期格式类型 |
 | [jsonType](type-aliases/jsonType.md) | - |

@@ -78,6 +78,66 @@
         "link": "/api/common/functions/unique.md"
       },
       {
+        "text": "uniqueByField",
+        "link": "/api/common/functions/uniqueByField.md"
+      },
+      {
+        "text": "isDarkColor",
+        "link": "/api/common/functions/isDarkColor.md"
+      },
+      {
+        "text": "isLightColor",
+        "link": "/api/common/functions/isLightColor.md"
+      },
+      {
+        "text": "convertToHsl",
+        "link": "/api/common/functions/convertToHsl.md"
+      },
+      {
+        "text": "convertToHslCssVar",
+        "link": "/api/common/functions/convertToHslCssVar.md"
+      },
+      {
+        "text": "convertToRgb",
+        "link": "/api/common/functions/convertToRgb.md"
+      },
+      {
+        "text": "isValidColor",
+        "link": "/api/common/functions/isValidColor.md"
+      },
+      {
+        "text": "generatorColorVariables",
+        "link": "/api/common/functions/generatorColorVariables.md"
+      },
+      {
+        "text": "getSystemTimezone",
+        "link": "/api/common/functions/getSystemTimezone.md"
+      },
+      {
+        "text": "setCurrentTimezone",
+        "link": "/api/common/functions/setCurrentTimezone.md"
+      },
+      {
+        "text": "getCurrentTimezone",
+        "link": "/api/common/functions/getCurrentTimezone.md"
+      },
+      {
+        "text": "formatDate",
+        "link": "/api/common/functions/formatDate.md"
+      },
+      {
+        "text": "formatDateTime",
+        "link": "/api/common/functions/formatDateTime.md"
+      },
+      {
+        "text": "isDateInstance",
+        "link": "/api/common/functions/isDateInstance.md"
+      },
+      {
+        "text": "isDayjsObject",
+        "link": "/api/common/functions/isDayjsObject.md"
+      },
+      {
         "text": "debounce",
         "link": "/api/common/functions/debounce.md"
       },
@@ -148,6 +208,22 @@
       {
         "text": "truncate",
         "link": "/api/common/functions/truncate.md"
+      },
+      {
+        "text": "filterTree",
+        "link": "/api/common/functions/filterTree.md"
+      },
+      {
+        "text": "mapTree",
+        "link": "/api/common/functions/mapTree.md"
+      },
+      {
+        "text": "sortTree",
+        "link": "/api/common/functions/sortTree.md"
+      },
+      {
+        "text": "traverseTreeValues",
+        "link": "/api/common/functions/traverseTreeValues.md"
       },
       {
         "text": "parseQueryString",
@@ -236,9 +312,23 @@
     ]
   },
   {
+    "text": "Classes",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "TinyColor",
+        "link": "/api/common/classes/TinyColor.md"
+      }
+    ]
+  },
+  {
     "text": "Interfaces",
     "collapsed": false,
     "items": [
+      {
+        "text": "TreeConfigOptions",
+        "link": "/api/common/interfaces/TreeConfigOptions.md"
+      },
       {
         "text": "IURL",
         "link": "/api/common/interfaces/IURL.md"
@@ -249,6 +339,14 @@
     "text": "Type Aliases",
     "collapsed": false,
     "items": [
+      {
+        "text": "FormatDate",
+        "link": "/api/common/type-aliases/FormatDate.md"
+      },
+      {
+        "text": "Format",
+        "link": "/api/common/type-aliases/Format.md"
+      },
       {
         "text": "jsonType",
         "link": "/api/common/type-aliases/jsonType.md"

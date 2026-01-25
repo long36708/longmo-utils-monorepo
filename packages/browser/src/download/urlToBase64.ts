@@ -4,7 +4,7 @@
  * @param url - 图片 URL 地址
  * @param mineType - 指定输出的 MIME 类型，默认为 'image/png'
  *
- * @returns Promise<string> - 返回 Base64 编码的图片数据
+ * @returns 返回 Base64 编码的图片数据
  *
  * @example 转换为 PNG
  * ```typescript

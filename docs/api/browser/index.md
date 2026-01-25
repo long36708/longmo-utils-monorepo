@@ -1,5 +1,11 @@
 # @longmo-utils/browser
 
+## Variables
+
+| Variable | Description |
+| ------ | ------ |
+| [DEFAULT\_FILENAME](variables/DEFAULT_FILENAME.md) | 默认下载文件名 |
+
 ## Functions
 
 | Function | Description |
@@ -18,6 +24,13 @@
 | [setStyle](functions/setStyle.md) | 为元素设置多个 CSS 属性 |
 | [isInViewport](functions/isInViewport.md) | 检查元素是否完全可见于视口中 |
 | [scrollIntoView](functions/scrollIntoView.md) | 将指定元素滚动到浏览器窗口的可见区域 |
+| [downloadFileFromBase64](functions/downloadFileFromBase64.md) | 通过 Base64 数据下载文件 |
+| [downloadFileFromBlob](functions/downloadFileFromBlob.md) | 通过 Blob 对象下载文件 |
+| [downloadFileFromBlobPart](functions/downloadFileFromBlobPart.md) | 通过 BlobPart 数据下载文件 |
+| [downloadFileFromImageUrl](functions/downloadFileFromImageUrl.md) | 通过图片 URL 下载图片文件 |
+| [downloadFileFromUrl](functions/downloadFileFromUrl.md) | 通过 URL 下载文件，支持跨域 |
+| [triggerDownload](functions/triggerDownload.md) | 通用下载触发函数 |
+| [urlToBase64](functions/urlToBase64.md) | 将图片 URL 转换为 Base64 编码 |
 | [getLocalStorage](functions/getLocalStorage.md) | Gets an item from localStorage |
 | [setLocalStorage](functions/setLocalStorage.md) | Sets an item in localStorage |
 | [removeLocalStorage](functions/removeLocalStorage.md) | Removes an item from localStorage |
@@ -25,3 +38,18 @@
 | [getSessionStorage](functions/getSessionStorage.md) | Gets an item from sessionStorage |
 | [setSessionStorage](functions/setSessionStorage.md) | Sets an item in sessionStorage |
 | [removeSessionStorage](functions/removeSessionStorage.md) | Removes an item from sessionStorage |
+| [openRouteInNewWindow](functions/openRouteInNewWindow.md) | 在新窗口中打开当前应用的路由 |
+| [openWindow](functions/openWindow.md) | 在新窗口中打开 URL |
+
+## Classes
+
+| Class | Description |
+| ------ | ------ |
+| [StorageManager](classes/StorageManager.md) | - |
+
+## Interfaces
+
+| Interface | Description |
+| ------ | ------ |
+| [DownloadOptions](interfaces/DownloadOptions.md) | 下载选项接口 |
+| [OpenWindowOptions](interfaces/OpenWindowOptions.md) | 打开窗口选项接口 |
