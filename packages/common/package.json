@@ -33,12 +33,14 @@
   "devDependencies": {
     "numeral": "^2.0.6",
     "dayjs": "^1.11.19",
-    "@ctrl/tinycolor": "^3.4.1"
+    "@ctrl/tinycolor": "^3.4.1",
+    "theme-colors": "^0.1.0"
   },
   "peerDependencies": {
     "numeral": "^2.0.6",
     "dayjs": "^1.11.19",
-    "@ctrl/tinycolor": "^3.4.1"
+    "@ctrl/tinycolor": "^3.4.1",
+    "theme-colors": "^1.0.0"
   },
   "peerDependenciesMeta": {
     "numeral": {
@@ -48,6 +50,9 @@
       "optional": true
     },
     "@ctrl/tinycolor": {
+      "optional": true
+    },
+    "theme-colors": {
       "optional": true
     }
   }

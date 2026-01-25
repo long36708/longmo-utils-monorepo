@@ -86,6 +86,9 @@ importers:
       numeral:
         specifier: ^2.0.6
         version: 2.0.6
+      theme-colors:
+        specifier: ^0.1.0
+        version: 0.1.0
 
   packages/longmo-utils:
     dependencies:
@@ -1668,6 +1671,9 @@ packages:
 
   tabbable@6.4.0:
     resolution: {integrity: sha512-05PUHKSNE8ou2dwIxTngl4EzcnsCDZGJ/iCLtDflR/SHB/ny14rXc+qU5P4mG9JkusiV7EivzY9Mhm55AzAvCg==}
+
+  theme-colors@0.1.0:
+    resolution: {integrity: sha512-6gTEHQqWlQNiOEGHCSSQmU//E5SnXHJ4H7oHQOD8x77CvNYNQAmt73dqR71mzw5ULV87zaHLxK5pIBnsToFuZw==}
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -3393,6 +3399,8 @@ snapshots:
       has-flag: 4.0.0
 
   tabbable@6.4.0: {}
+
+  theme-colors@0.1.0: {}
 
   tinybench@2.9.0: {}
 
