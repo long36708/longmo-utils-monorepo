@@ -11,6 +11,11 @@ import { promises as fs } from 'fs'
  * @public
  */
 export async function readJson<T = any>(filePath: string): Promise<T> {
-  const content = await fs.readFile(filePath, 'utf-8')
-  return JSON.parse(content)
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading JSON file:', error);
+    throw error;
+  }
 }
