@@ -23,7 +23,9 @@
     "docs:api:common": "typedoc --options typedoc.common.ts",
     "docs:api:browser": "typedoc --options typedoc.browser.ts",
     "docs:api:node": "typedoc --options typedoc.node.ts",
-    "docs": "pnpm docs:api && pnpm docs:build"
+    "docs": "pnpm docs:api && pnpm docs:build",
+    "playground:install": "cd playground && pnpm install",
+    "playground:dev": "cd playground && pnpm dev"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
